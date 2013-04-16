@@ -1,0 +1,1661 @@
+{
+  "@context": {
+    "cc": "http://creativecommons.org/ns#",
+    "coo": "http://purl.org/coo/ns#",
+    "ctag": "http://commontag.org/ns#",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "eco": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#",
+    "exif": "http://www.w3.org/2003/12/exif/ns#",
+    "fab": "http://purl.org/fab/ns#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "gr": "http://purl.org/goodrelations/v1#",
+    "grddl": "http://www.w3.org/2003/g/data-view#",
+    "ical": "http://www.w3.org/2002/12/cal/icaltzd#",
+    "og": "http://ogp.me/ns#",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rev": "http://purl.org/stuff/rev#",
+    "rif": "http://www.w3.org/2007/rif#",
+    "s": "http://schema.org/",
+    "sioc": "http://rdfs.org/sioc/ns#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "tio": "http://purl.org/tio/ns#",
+    "v": "http://rdf.data-vocabulary.org/#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "void": "http://rdfs.org/ns/void#",
+    "vso": "http://purl.org/vso/ns#",
+    "vvo": "http://purl.org/vvo/ns#",
+    "wdr": "http://www.w3.org/2007/05/powder#",
+    "wdsr": "http://www.w3.org/2007/05/powder-s#",
+    "xhv": "http://www.w3.org/1999/xhtml/vocab#",
+    "xro": "http://www.stalsoft.com/ontologies/xro/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f29v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1500"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f29r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f35v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1512"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f35r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1494"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f21v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2187"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1497"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f12v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2199"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1530"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f21r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f12r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f7r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1533"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f7v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/NormalSequence.xml",
+      "@type": "ore:ResourceMap",
+      "dc:format": "application/rdf+xml",
+      "dcterms:creator": {
+        "@id": "urn:uuid:13dc3da6-dabf-4659-89fa-ed7f535a1d20"
+      },
+      "dcterms:modified": "2011-07-21T16:09:58Z",
+      "ore:describes": {
+        "@list": [
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36v"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f18r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1476"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f1v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1521"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f1r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2217"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1548"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f28v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2175"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f28r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f36r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f9v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1515"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f36v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2187"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f9r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2226"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f13r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1533"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f20v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f13v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2190"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f20r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f6r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2229"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f6v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2199"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f14r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1539"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f14v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1536"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f33v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1524"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f33r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2199"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1506"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f23v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2166"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1485"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f23r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2220"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f5r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1530"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f5v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1527"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f15r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1533"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/NormalSequence",
+      "@type": [
+        "http://dms.stanford.edu/ns/Sequence",
+        "rdf:List",
+        "ore:Aggregation"
+      ],
+      "ore:aggregates": [
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13r"
+        }
+      ],
+      "rdf:first": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      },
+      "rdf:rest": {
+        "@list": [
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35v"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36r"
+          },
+          {
+            "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36v"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f15v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2232"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1506"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f34r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1503"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f34v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f22r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f22v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2184"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f4v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f4r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2226"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f25r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2214"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f16r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2226"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1527"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f25v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2175"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1506"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f16v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1521"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f31r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f31v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1500"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f3v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2181"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1515"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f3r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2220"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1545"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f17v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2181"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f17r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2214"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1476"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f24r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f24v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2160"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1512"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f32v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2172"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1494"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f32r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2196"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f2v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f2r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2190"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1548"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f8r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1539"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f10v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1530"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f10r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2223"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f27r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2190"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f27v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2181"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1497"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f8v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1545"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f18v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "urn:uuid:13dc3da6-dabf-4659-89fa-ed7f535a1d20",
+      "@type": "dcterms:Agent",
+      "foaf:mbox": "azaroth42@gmail.com",
+      "foaf:name": "SharedCanvas: Python/rdflib"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f26v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1503"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f11v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1554"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f26r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2220"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1494"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f11r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2232"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1527"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f30v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2184"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1497"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f30r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2199"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19v",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f19v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2175"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1503"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19r",
+      "@type": "http://dms.stanford.edu/ns/Canvas",
+      "dc:title": "M804 f19r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2196"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    }
+  ]
+}
+
+

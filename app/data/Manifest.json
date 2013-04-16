@@ -1,0 +1,1640 @@
+{
+  "@context": {
+    "cc": "http://creativecommons.org/ns#",
+    "coo": "http://purl.org/coo/ns#",
+    "ctag": "http://commontag.org/ns#",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dms": "http://dms.stanford.edu/ns/",
+    "eco": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#",
+    "fab": "http://purl.org/fab/ns#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "gr": "http://purl.org/goodrelations/v1#",
+    "grddl": "http://www.w3.org/2003/g/data-view#",
+    "ical": "http://www.w3.org/2002/12/cal/icaltzd#",
+    "og": "http://ogp.me/ns#",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rev": "http://purl.org/stuff/rev#",
+    "rif": "http://www.w3.org/2007/rif#",
+    "s": "http://schema.org/",
+    "sioc": "http://rdfs.org/sioc/ns#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "tio": "http://purl.org/tio/ns#",
+    "v": "http://rdf.data-vocabulary.org/#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "void": "http://rdfs.org/ns/void#",
+    "vso": "http://purl.org/vso/ns#",
+    "vvo": "http://purl.org/vvo/ns#",
+    "wdr": "http://www.w3.org/2007/05/powder#",
+    "wdsr": "http://www.w3.org/2007/05/powder-s#",
+    "xhv": "http://www.w3.org/1999/xhtml/vocab#",
+    "xro": "http://www.stalsoft.com/ontologies/xro/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f32r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f32r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f30r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f32v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f32v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f24r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f24r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f24v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f24v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f11v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f27r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f5v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f5v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f5r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f5r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f11r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f33r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f35v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f4v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f10v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f10v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f34v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f10r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f10r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/NormalSequence.xml",
+      "@type": "ore:ResourceMap",
+      "dc:format": "application/rdf+xml"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f4r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f31v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f31v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/ImageAnnotations.xml",
+      "@type": "ore:ResourceMap",
+      "dc:format": "application/rdf+xml"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f31r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f31r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f21r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f19r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f6r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f6r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f29r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f24v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f6v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f6v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f20r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f26v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f19v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "urn:uuid:07fbb971-6acb-48ce-9ed4-1789dfe5b3a0",
+      "@type": "dcterms:Agent",
+      "foaf:mbox": "azaroth42@gmail.com",
+      "foaf:name": "SharedCanvas: Python/rdflib"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f20v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f12v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f13r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f13r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f13v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f13v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f23v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f15v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f22v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f22v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f22r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f22r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f7v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f3v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f3v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f3r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f3r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f13r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f19r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f19r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f13v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f19v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f19v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f17v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f31v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f30v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/ImageAnnotations",
+      "@type": [
+        "ore:Aggregation",
+        "rdf:List",
+        "dms:ImageAnnotationList"
+      ],
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/ImageAnnotations.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f31r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f35r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f35r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f16v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f16v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f35v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f35v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f16r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f16r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f29r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f29r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f29v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f29v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f3v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f25r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f18v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f18v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f2v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f33v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f33v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f18r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f18r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f33r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f33r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f23v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f23v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f29v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f7r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f4r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f4r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/NormalSequence",
+      "@type": [
+        "ore:Aggregation",
+        "dms:Sequence",
+        "rdf:List"
+      ],
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/NormalSequence.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f23r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f23r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f4v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f4v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f35r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f27v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f22v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f5r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f36v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f34r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f34r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f11r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f11r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f9v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f34v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f34v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f11v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f11v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f16r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f20v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f20v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f24r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f20r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f20r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f32r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f8r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f8v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f26r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f33v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f9r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f9r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f27r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f27r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f36r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f27v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f27v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f6r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f6v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f9v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f9v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f9r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f23r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f21v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f21v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f18r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f28v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Manifest.xml",
+      "@type": "ore:ResourceMap",
+      "dc:format": "application/rdf+xml",
+      "dcterms:creator": {
+        "@id": "urn:uuid:07fbb971-6acb-48ce-9ed4-1789dfe5b3a0"
+      },
+      "dcterms:modified": "2011-07-21T16:09:58Z",
+      "ore:describes": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Manifest"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f2v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f2v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f2r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f2r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/AnnotationList",
+      "@type": [
+        "ore:Aggregation",
+        "dms:AnnotationList",
+        "rdf:List"
+      ],
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/AnnotationList.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f36v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f36v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f17v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f17v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f36r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f36r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f17r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f17r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f5v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f28v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f28v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f28r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f28r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f21r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f21r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f2r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f32v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f22r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f30v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f30v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f15v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f15v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f30r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f30r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f15r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f15r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f16v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f3r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f7r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f7r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f7v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f7v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/AnnotationList.xml",
+      "@type": "ore:ResourceMap",
+      "dc:format": "application/rdf+xml"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f12r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f25v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f25v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f25r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f25r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f12r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f12r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f12v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f12v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f25v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f21v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f14r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f14r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f14v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f14v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f28r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f10r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f18v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f34r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f10v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f15r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f14v.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f17r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f26r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f26r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f8v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f8v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f26v",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26v"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f26v.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f8r",
+      "@type": [
+        "dms:TextAnnotationList",
+        "ore:Aggregation",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8r"
+      },
+      "ore:isDescribedBy": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f8r.xml"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f14r.xml",
+      "@type": "ore:ResourceMap"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Manifest",
+      "@type": [
+        "ore:Aggregation",
+        "dms:Manifest"
+      ],
+      "ore:aggregates": [
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f16r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f14r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f32v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f24v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f20r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f15r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f24r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f17r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f19r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f28r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f34r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f22v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f31r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f36r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f29v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f21r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f10r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f3r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f28v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f12v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f4r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f11r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f32r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f26v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f25r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f36v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f27v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f4v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/AnnotationList"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f26r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f22r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f33v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f35r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f18v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f21v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/NormalSequence"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f8r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f3v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f15v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f30v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f5r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f11v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f13r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f35v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f23v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f20v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f10v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f9r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f7v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f2v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f19v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f8v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f17v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f6v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f30r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f29r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f31v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f7r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f12r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f33r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f9v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f18r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f16v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f23r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f5v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f25v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f14v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f34v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/ImageAnnotations"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f27r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f2r"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f13v"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f6r"
+        }
+      ]
+    }
+  ]
+}
+
+

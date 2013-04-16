@@ -1,0 +1,2037 @@
+{
+  "@context": {
+    "cc": "http://creativecommons.org/ns#",
+    "cnt": "http://www.w3.org/2008/content#",
+    "coo": "http://purl.org/coo/ns#",
+    "ctag": "http://commontag.org/ns#",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dms": "http://dms.stanford.edu/ns/",
+    "eco": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#",
+    "exif": "http://www.w3.org/2003/12/exif/ns#",
+    "fab": "http://purl.org/fab/ns#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "gr": "http://purl.org/goodrelations/v1#",
+    "grddl": "http://www.w3.org/2003/g/data-view#",
+    "ical": "http://www.w3.org/2002/12/cal/icaltzd#",
+    "oac": "http://www.openannotation.org/ns/",
+    "og": "http://ogp.me/ns#",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rev": "http://purl.org/stuff/rev#",
+    "rif": "http://www.w3.org/2007/rif#",
+    "s": "http://schema.org/",
+    "sioc": "http://rdfs.org/sioc/ns#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "tio": "http://purl.org/tio/ns#",
+    "v": "http://rdf.data-vocabulary.org/#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "void": "http://rdfs.org/ns/void#",
+    "vso": "http://purl.org/vso/ns#",
+    "vvo": "http://purl.org/vvo/ns#",
+    "wdr": "http://www.w3.org/2007/05/powder#",
+    "wdsr": "http://www.w3.org/2007/05/powder-s#",
+    "xhv": "http://www.w3.org/1999/xhtml/vocab#",
+    "xro": "http://www.stalsoft.com/ontologies/xro/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "urn:uuid:d026633b-1149-442a-b765-08d099a7faba",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-23"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1646,523,50"
+      }
+    },
+    {
+      "@id": "urn:uuid:a75473ca-a374-484b-a2e8-e01582c8f34f",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-14"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1343,212,44"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-19",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "de neant crea toutes choses qu'il vueille creer"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-18",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "je requier au sauveur de tout le monde qui"
+    },
+    {
+      "@id": "urn:uuid:f727bd24-96b7-43c9-903e-374e4e81d76f",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-19"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1513,536,46"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-11",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "registrez et miz"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-10",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "soient notablement"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-13",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "petuel, parquoy"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-12",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "en memoire per-"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-15",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "exemple de eulz encouragier en bien faisant,"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-14",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "les preux ayent"
+    },
+    {
+      "@id": "urn:uuid:809370ca-2fe6-4082-830b-255d4f1cd16d",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-36"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1282,586,50"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-16",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "je vueil traittier et recorder l'istoire et matiere"
+    },
+    {
+      "@id": "urn:uuid:2f0e7925-ccfc-42c6-91bc-631bece5b0dc",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-6"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=389,1077,213,38"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1385,556,41",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:d9310851-4267-4450-aeab-fe068c71b345",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-9"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=382,1180,209,31"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=66,934,1195,50",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:edacb7b6-87ca-4e36-8db4-472e2448e06f",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-2"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=75,971,1172,50"
+      }
+    },
+    {
+      "@id": "urn:uuid:782ce7d8-0227-46a5-89e2-a7918536590e",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-16"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1413,538,44"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1147,558,52",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-3",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text",
+        "dms:InitialBody"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "A"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-2",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text",
+        "dms:RubricBody"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "d'Engleterre, d'Escoce et d'Espaigne, lesquelles sont devisees en quatre parties. Le prologue."
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-1",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text",
+        "dms:RubricBody"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "Ci commencent les croniques que fist maistre Frossart qui parlent des nouvelles guerres de France et"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-6",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "aventures, fais"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-5",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "avenues et nobles"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-4",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "fin que honnorables"
+    },
+    {
+      "@id": "urn:uuid:129bc263-17f6-4078-abcd-405aa2085775",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-21"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=68,1575,547,54"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-9",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et d'Engleterre"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1522,565,35",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=68,1747,534,52",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1614,533,45",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:71f985fd-a842-4adf-bd9e-15b5f351f903",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-48"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1690,547,41"
+      }
+    },
+    {
+      "@id": "urn:uuid:d6f49311-cbe2-49e3-a6a2-3bed54e2628d",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-28"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1010,554,39"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=687,1110,582,46",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=702,1452,537,48",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-44",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "ment qu'il pot, et moult lui cousta a l'acquerre"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1489,545,38",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1215,560,37",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1210,235,42",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=386,1108,218,41",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=391,1145,226,46",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=382,1180,209,31",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:fe21310f-d1fb-4df1-8a81-9fa0f8af22f7",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-11"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=395,1250,210,37"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-45",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et a l'avoir mais quelz frais qu'il y eust ne"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=400,1008,226,37",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1646,523,50",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-7",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "d'armes par les"
+    },
+    {
+      "@id": "urn:uuid:d65258b3-836f-478e-ad30-48c18064ca3a",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-22"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1614,533,45"
+      }
+    },
+    {
+      "@id": "urn:uuid:6bec144c-0ea1-4798-8c40-c896171e5603",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-5"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=387,1047,244,39"
+      }
+    },
+    {
+      "@id": "urn:uuid:483e2080-3d31-4c8d-93d4-a32868ded705",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-45"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1587,562,40"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1315,214,35",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-17",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "de grant loenge mais ains que je le commence"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1180,561,43",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:ee9f738f-480c-43e2-9931-d47022e37b9c",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-3"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=48,1012,365,382"
+      }
+    },
+    {
+      "@id": "urn:uuid:981d7123-f600-4e7e-b0ac-590f63a0912e",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-40"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1418,578,48"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1319,565,44",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:480adac8-d977-4d83-b084-186a90e7dc1a",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-42"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1489,545,38"
+      }
+    },
+    {
+      "@id": "urn:uuid:12994b8b-8c4b-4282-b2c2-87b86298a0cf",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-35"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1252,565,41"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1r.xml",
+      "@type": "ore:ResourceMap",
+      "dc:format": "application/rdf+xml",
+      "dcterms:creator": {
+        "@id": "urn:uuid:ae71dfc4-ca1d-4f09-ad9e-5e6cbc12a097"
+      },
+      "dcterms:modified": "2011-07-21T16:10:19Z",
+      "ore:describes": {
+        "@list": [
+          {
+            "@id": "urn:uuid:95ee1ef2-78ec-4dbc-9296-4d2287bc16e7"
+          },
+          {
+            "@id": "urn:uuid:edacb7b6-87ca-4e36-8db4-472e2448e06f"
+          },
+          {
+            "@id": "urn:uuid:ee9f738f-480c-43e2-9931-d47022e37b9c"
+          },
+          {
+            "@id": "urn:uuid:791b0b9b-2df3-4aeb-b3ac-bb6c7b8bc3ab"
+          },
+          {
+            "@id": "urn:uuid:6bec144c-0ea1-4798-8c40-c896171e5603"
+          },
+          {
+            "@id": "urn:uuid:2f0e7925-ccfc-42c6-91bc-631bece5b0dc"
+          },
+          {
+            "@id": "urn:uuid:d6b381a2-afb3-46d5-9d2c-a914ea2d5d71"
+          },
+          {
+            "@id": "urn:uuid:68b101f6-50d9-4cab-a0e3-4e0df3e781dd"
+          },
+          {
+            "@id": "urn:uuid:d9310851-4267-4450-aeab-fe068c71b345"
+          },
+          {
+            "@id": "urn:uuid:2ee67f3c-9c24-44a2-8107-1b29fb75c1f3"
+          },
+          {
+            "@id": "urn:uuid:fe21310f-d1fb-4df1-8a81-9fa0f8af22f7"
+          },
+          {
+            "@id": "urn:uuid:46860883-5e66-4d9b-9f95-72045722900e"
+          },
+          {
+            "@id": "urn:uuid:65c63845-13e0-4e75-9717-866cd5695318"
+          },
+          {
+            "@id": "urn:uuid:a75473ca-a374-484b-a2e8-e01582c8f34f"
+          },
+          {
+            "@id": "urn:uuid:c437ff82-4081-4fad-a89c-1a8a3093c80f"
+          },
+          {
+            "@id": "urn:uuid:782ce7d8-0227-46a5-89e2-a7918536590e"
+          },
+          {
+            "@id": "urn:uuid:f1929b78-ce4f-42ed-86b7-58560d4436f3"
+          },
+          {
+            "@id": "urn:uuid:5af02a7b-40da-4734-9c10-ca69a1a1bb16"
+          },
+          {
+            "@id": "urn:uuid:f727bd24-96b7-43c9-903e-374e4e81d76f"
+          },
+          {
+            "@id": "urn:uuid:8bbb5a05-d26d-411e-8ecf-e3b5c576ac7a"
+          },
+          {
+            "@id": "urn:uuid:129bc263-17f6-4078-abcd-405aa2085775"
+          },
+          {
+            "@id": "urn:uuid:d65258b3-836f-478e-ad30-48c18064ca3a"
+          },
+          {
+            "@id": "urn:uuid:d026633b-1149-442a-b765-08d099a7faba"
+          },
+          {
+            "@id": "urn:uuid:cebf3467-f57a-4a95-b8a0-d554f0455808"
+          },
+          {
+            "@id": "urn:uuid:0497e372-643e-45c6-b46d-f1972a89a250"
+          },
+          {
+            "@id": "urn:uuid:b497696b-939a-46ee-823d-3cdd594c4365"
+          },
+          {
+            "@id": "urn:uuid:9088acea-0912-472b-b197-22653c259c66"
+          },
+          {
+            "@id": "urn:uuid:d6f49311-cbe2-49e3-a6a2-3bed54e2628d"
+          },
+          {
+            "@id": "urn:uuid:43ab9cbb-d799-4bf4-b509-f221ba062bef"
+          },
+          {
+            "@id": "urn:uuid:84937c24-3218-46c9-a131-11b78e0cc2fc"
+          },
+          {
+            "@id": "urn:uuid:0f251dd8-446c-4e9f-a706-f1aa14352af4"
+          },
+          {
+            "@id": "urn:uuid:4662ff56-7030-4a8d-87b4-268d730253e4"
+          },
+          {
+            "@id": "urn:uuid:0e02b140-051b-4b40-9e67-33808b5fc236"
+          },
+          {
+            "@id": "urn:uuid:544b566f-31a2-4dd1-8599-090fe33af878"
+          },
+          {
+            "@id": "urn:uuid:12994b8b-8c4b-4282-b2c2-87b86298a0cf"
+          },
+          {
+            "@id": "urn:uuid:809370ca-2fe6-4082-830b-255d4f1cd16d"
+          },
+          {
+            "@id": "urn:uuid:1d327a6e-0d78-49ed-8a87-b68826517505"
+          },
+          {
+            "@id": "urn:uuid:bfa84644-f0e4-4869-b866-f9367a7986be"
+          },
+          {
+            "@id": "urn:uuid:dbe91fb8-131e-4852-857b-5d22bda7588a"
+          },
+          {
+            "@id": "urn:uuid:981d7123-f600-4e7e-b0ac-590f63a0912e"
+          },
+          {
+            "@id": "urn:uuid:a1b93307-2f1b-4644-9fd1-ab49997cba76"
+          },
+          {
+            "@id": "urn:uuid:480adac8-d977-4d83-b084-186a90e7dc1a"
+          },
+          {
+            "@id": "urn:uuid:52958626-ed2a-4ba4-9647-7b3cbe943c21"
+          },
+          {
+            "@id": "urn:uuid:3eaa28a3-b439-46fe-8da2-fd3fb8f772c2"
+          },
+          {
+            "@id": "urn:uuid:483e2080-3d31-4c8d-93d4-a32868ded705"
+          },
+          {
+            "@id": "urn:uuid:6400599c-62b5-4eae-8503-166df01d6a2b"
+          },
+          {
+            "@id": "urn:uuid:340507ee-e602-4de9-bd48-b30a95174a56"
+          },
+          {
+            "@id": "urn:uuid:71f985fd-a842-4adf-bd9e-15b5f351f903"
+          },
+          {
+            "@id": "urn:uuid:b66a3319-d4ae-4278-b478-30c93e02f3fc"
+          },
+          {
+            "@id": "urn:uuid:17c540c7-5a40-4d7c-a6df-e0914113a352"
+          },
+          {
+            "@id": "urn:uuid:c46597b9-efd1-4b8b-945a-d18409b83347"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1045,593,43",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:46860883-5e66-4d9b-9f95-72045722900e",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-12"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=395,1280,223,46"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-51",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "noble et doubte seigneur monseigneur Jehan de"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1350,549,33",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=68,1575,547,54",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-43",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et le continua tout son vivant au plus juste-"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-40",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "discret seigneur monseigneur Jehan le Bel, chanoine"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-41",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "de Saint Lambert de Liege, qui grant cure et"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-46",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "feist riens, ne les plaingni car il estoit riche"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-47",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et puissant si les povoit bien porter et de soy"
+    },
+    {
+      "@id": "urn:uuid:17c540c7-5a40-4d7c-a6df-e0914113a352",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-50"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=689,1753,561,52"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-48",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "meismes large, honnorable et courtois et"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-49",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "qui voulentiers veoit le sien despendre. Aussi"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1442,525,47",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=689,1753,561,52",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1010,554,39",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:a1b93307-2f1b-4644-9fd1-ab49997cba76",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-41"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=702,1452,537,48"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=73,1383,540,35",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1786,545,59",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:5af02a7b-40da-4734-9c10-ca69a1a1bb16",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-18"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1476,528,53"
+      }
+    },
+    {
+      "@id": "urn:uuid:c46597b9-efd1-4b8b-945a-d18409b83347",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-51"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1786,545,59"
+      }
+    },
+    {
+      "@id": "urn:uuid:52958626-ed2a-4ba4-9647-7b3cbe943c21",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-43"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1522,565,35"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=395,1280,223,46",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1684,521,43",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1721,545,47",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=75,971,1172,50",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:d6b381a2-afb3-46d5-9d2c-a914ea2d5d71",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-7"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=386,1108,218,41"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-50",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "il fu en son venir moult amis et secres a tres-"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1r",
+      "@type": [
+        "ore:Aggregation",
+        "dms:TextAnnotationList",
+        "rdf:List"
+      ],
+      "dms:forCanvas": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      },
+      "ore:aggregates": [
+        {
+          "@id": "urn:uuid:d9310851-4267-4450-aeab-fe068c71b345"
+        },
+        {
+          "@id": "urn:uuid:340507ee-e602-4de9-bd48-b30a95174a56"
+        },
+        {
+          "@id": "urn:uuid:a1b93307-2f1b-4644-9fd1-ab49997cba76"
+        },
+        {
+          "@id": "urn:uuid:2f0e7925-ccfc-42c6-91bc-631bece5b0dc"
+        },
+        {
+          "@id": "urn:uuid:9088acea-0912-472b-b197-22653c259c66"
+        },
+        {
+          "@id": "urn:uuid:71f985fd-a842-4adf-bd9e-15b5f351f903"
+        },
+        {
+          "@id": "urn:uuid:2ee67f3c-9c24-44a2-8107-1b29fb75c1f3"
+        },
+        {
+          "@id": "urn:uuid:46860883-5e66-4d9b-9f95-72045722900e"
+        },
+        {
+          "@id": "urn:uuid:65c63845-13e0-4e75-9717-866cd5695318"
+        },
+        {
+          "@id": "urn:uuid:0f251dd8-446c-4e9f-a706-f1aa14352af4"
+        },
+        {
+          "@id": "urn:uuid:809370ca-2fe6-4082-830b-255d4f1cd16d"
+        },
+        {
+          "@id": "urn:uuid:5af02a7b-40da-4734-9c10-ca69a1a1bb16"
+        },
+        {
+          "@id": "urn:uuid:d6f49311-cbe2-49e3-a6a2-3bed54e2628d"
+        },
+        {
+          "@id": "urn:uuid:0e02b140-051b-4b40-9e67-33808b5fc236"
+        },
+        {
+          "@id": "urn:uuid:68b101f6-50d9-4cab-a0e3-4e0df3e781dd"
+        },
+        {
+          "@id": "urn:uuid:edacb7b6-87ca-4e36-8db4-472e2448e06f"
+        },
+        {
+          "@id": "urn:uuid:f1929b78-ce4f-42ed-86b7-58560d4436f3"
+        },
+        {
+          "@id": "urn:uuid:ee9f738f-480c-43e2-9931-d47022e37b9c"
+        },
+        {
+          "@id": "urn:uuid:f727bd24-96b7-43c9-903e-374e4e81d76f"
+        },
+        {
+          "@id": "urn:uuid:129bc263-17f6-4078-abcd-405aa2085775"
+        },
+        {
+          "@id": "urn:uuid:483e2080-3d31-4c8d-93d4-a32868ded705"
+        },
+        {
+          "@id": "urn:uuid:cebf3467-f57a-4a95-b8a0-d554f0455808"
+        },
+        {
+          "@id": "urn:uuid:8bbb5a05-d26d-411e-8ecf-e3b5c576ac7a"
+        },
+        {
+          "@id": "urn:uuid:6400599c-62b5-4eae-8503-166df01d6a2b"
+        },
+        {
+          "@id": "urn:uuid:782ce7d8-0227-46a5-89e2-a7918536590e"
+        },
+        {
+          "@id": "urn:uuid:52958626-ed2a-4ba4-9647-7b3cbe943c21"
+        },
+        {
+          "@id": "urn:uuid:4662ff56-7030-4a8d-87b4-268d730253e4"
+        },
+        {
+          "@id": "urn:uuid:1d327a6e-0d78-49ed-8a87-b68826517505"
+        },
+        {
+          "@id": "urn:uuid:a75473ca-a374-484b-a2e8-e01582c8f34f"
+        },
+        {
+          "@id": "urn:uuid:c46597b9-efd1-4b8b-945a-d18409b83347"
+        },
+        {
+          "@id": "urn:uuid:791b0b9b-2df3-4aeb-b3ac-bb6c7b8bc3ab"
+        },
+        {
+          "@id": "urn:uuid:480adac8-d977-4d83-b084-186a90e7dc1a"
+        },
+        {
+          "@id": "urn:uuid:3eaa28a3-b439-46fe-8da2-fd3fb8f772c2"
+        },
+        {
+          "@id": "urn:uuid:b66a3319-d4ae-4278-b478-30c93e02f3fc"
+        },
+        {
+          "@id": "urn:uuid:d6b381a2-afb3-46d5-9d2c-a914ea2d5d71"
+        },
+        {
+          "@id": "urn:uuid:fe21310f-d1fb-4df1-8a81-9fa0f8af22f7"
+        },
+        {
+          "@id": "urn:uuid:544b566f-31a2-4dd1-8599-090fe33af878"
+        },
+        {
+          "@id": "urn:uuid:95ee1ef2-78ec-4dbc-9296-4d2287bc16e7"
+        },
+        {
+          "@id": "urn:uuid:12994b8b-8c4b-4282-b2c2-87b86298a0cf"
+        },
+        {
+          "@id": "urn:uuid:d026633b-1149-442a-b765-08d099a7faba"
+        },
+        {
+          "@id": "urn:uuid:c437ff82-4081-4fad-a89c-1a8a3093c80f"
+        },
+        {
+          "@id": "urn:uuid:6bec144c-0ea1-4798-8c40-c896171e5603"
+        },
+        {
+          "@id": "urn:uuid:84937c24-3218-46c9-a131-11b78e0cc2fc"
+        },
+        {
+          "@id": "urn:uuid:b497696b-939a-46ee-823d-3cdd594c4365"
+        },
+        {
+          "@id": "urn:uuid:43ab9cbb-d799-4bf4-b509-f221ba062bef"
+        },
+        {
+          "@id": "urn:uuid:981d7123-f600-4e7e-b0ac-590f63a0912e"
+        },
+        {
+          "@id": "urn:uuid:dbe91fb8-131e-4852-857b-5d22bda7588a"
+        },
+        {
+          "@id": "urn:uuid:d65258b3-836f-478e-ad30-48c18064ca3a"
+        },
+        {
+          "@id": "urn:uuid:bfa84644-f0e4-4869-b866-f9367a7986be"
+        },
+        {
+          "@id": "urn:uuid:17c540c7-5a40-4d7c-a6df-e0914113a352"
+        },
+        {
+          "@id": "urn:uuid:0497e372-643e-45c6-b46d-f1972a89a250"
+        }
+      ],
+      "rdf:first": {
+        "@id": "urn:uuid:95ee1ef2-78ec-4dbc-9296-4d2287bc16e7"
+      },
+      "rdf:rest": {
+        "@list": [
+          {
+            "@id": "urn:uuid:edacb7b6-87ca-4e36-8db4-472e2448e06f"
+          },
+          {
+            "@id": "urn:uuid:ee9f738f-480c-43e2-9931-d47022e37b9c"
+          },
+          {
+            "@id": "urn:uuid:791b0b9b-2df3-4aeb-b3ac-bb6c7b8bc3ab"
+          },
+          {
+            "@id": "urn:uuid:6bec144c-0ea1-4798-8c40-c896171e5603"
+          },
+          {
+            "@id": "urn:uuid:2f0e7925-ccfc-42c6-91bc-631bece5b0dc"
+          },
+          {
+            "@id": "urn:uuid:d6b381a2-afb3-46d5-9d2c-a914ea2d5d71"
+          },
+          {
+            "@id": "urn:uuid:68b101f6-50d9-4cab-a0e3-4e0df3e781dd"
+          },
+          {
+            "@id": "urn:uuid:d9310851-4267-4450-aeab-fe068c71b345"
+          },
+          {
+            "@id": "urn:uuid:2ee67f3c-9c24-44a2-8107-1b29fb75c1f3"
+          },
+          {
+            "@id": "urn:uuid:fe21310f-d1fb-4df1-8a81-9fa0f8af22f7"
+          },
+          {
+            "@id": "urn:uuid:46860883-5e66-4d9b-9f95-72045722900e"
+          },
+          {
+            "@id": "urn:uuid:65c63845-13e0-4e75-9717-866cd5695318"
+          },
+          {
+            "@id": "urn:uuid:a75473ca-a374-484b-a2e8-e01582c8f34f"
+          },
+          {
+            "@id": "urn:uuid:c437ff82-4081-4fad-a89c-1a8a3093c80f"
+          },
+          {
+            "@id": "urn:uuid:782ce7d8-0227-46a5-89e2-a7918536590e"
+          },
+          {
+            "@id": "urn:uuid:f1929b78-ce4f-42ed-86b7-58560d4436f3"
+          },
+          {
+            "@id": "urn:uuid:5af02a7b-40da-4734-9c10-ca69a1a1bb16"
+          },
+          {
+            "@id": "urn:uuid:f727bd24-96b7-43c9-903e-374e4e81d76f"
+          },
+          {
+            "@id": "urn:uuid:8bbb5a05-d26d-411e-8ecf-e3b5c576ac7a"
+          },
+          {
+            "@id": "urn:uuid:129bc263-17f6-4078-abcd-405aa2085775"
+          },
+          {
+            "@id": "urn:uuid:d65258b3-836f-478e-ad30-48c18064ca3a"
+          },
+          {
+            "@id": "urn:uuid:d026633b-1149-442a-b765-08d099a7faba"
+          },
+          {
+            "@id": "urn:uuid:cebf3467-f57a-4a95-b8a0-d554f0455808"
+          },
+          {
+            "@id": "urn:uuid:0497e372-643e-45c6-b46d-f1972a89a250"
+          },
+          {
+            "@id": "urn:uuid:b497696b-939a-46ee-823d-3cdd594c4365"
+          },
+          {
+            "@id": "urn:uuid:9088acea-0912-472b-b197-22653c259c66"
+          },
+          {
+            "@id": "urn:uuid:d6f49311-cbe2-49e3-a6a2-3bed54e2628d"
+          },
+          {
+            "@id": "urn:uuid:43ab9cbb-d799-4bf4-b509-f221ba062bef"
+          },
+          {
+            "@id": "urn:uuid:84937c24-3218-46c9-a131-11b78e0cc2fc"
+          },
+          {
+            "@id": "urn:uuid:0f251dd8-446c-4e9f-a706-f1aa14352af4"
+          },
+          {
+            "@id": "urn:uuid:4662ff56-7030-4a8d-87b4-268d730253e4"
+          },
+          {
+            "@id": "urn:uuid:0e02b140-051b-4b40-9e67-33808b5fc236"
+          },
+          {
+            "@id": "urn:uuid:544b566f-31a2-4dd1-8599-090fe33af878"
+          },
+          {
+            "@id": "urn:uuid:12994b8b-8c4b-4282-b2c2-87b86298a0cf"
+          },
+          {
+            "@id": "urn:uuid:809370ca-2fe6-4082-830b-255d4f1cd16d"
+          },
+          {
+            "@id": "urn:uuid:1d327a6e-0d78-49ed-8a87-b68826517505"
+          },
+          {
+            "@id": "urn:uuid:bfa84644-f0e4-4869-b866-f9367a7986be"
+          },
+          {
+            "@id": "urn:uuid:dbe91fb8-131e-4852-857b-5d22bda7588a"
+          },
+          {
+            "@id": "urn:uuid:981d7123-f600-4e7e-b0ac-590f63a0912e"
+          },
+          {
+            "@id": "urn:uuid:a1b93307-2f1b-4644-9fd1-ab49997cba76"
+          },
+          {
+            "@id": "urn:uuid:480adac8-d977-4d83-b084-186a90e7dc1a"
+          },
+          {
+            "@id": "urn:uuid:52958626-ed2a-4ba4-9647-7b3cbe943c21"
+          },
+          {
+            "@id": "urn:uuid:3eaa28a3-b439-46fe-8da2-fd3fb8f772c2"
+          },
+          {
+            "@id": "urn:uuid:483e2080-3d31-4c8d-93d4-a32868ded705"
+          },
+          {
+            "@id": "urn:uuid:6400599c-62b5-4eae-8503-166df01d6a2b"
+          },
+          {
+            "@id": "urn:uuid:340507ee-e602-4de9-bd48-b30a95174a56"
+          },
+          {
+            "@id": "urn:uuid:71f985fd-a842-4adf-bd9e-15b5f351f903"
+          },
+          {
+            "@id": "urn:uuid:b66a3319-d4ae-4278-b478-30c93e02f3fc"
+          },
+          {
+            "@id": "urn:uuid:17c540c7-5a40-4d7c-a6df-e0914113a352"
+          },
+          {
+            "@id": "urn:uuid:c46597b9-efd1-4b8b-945a-d18409b83347"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=685,1655,580,39",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:0f251dd8-446c-4e9f-a706-f1aa14352af4",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-31"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=687,1110,582,46"
+      }
+    },
+    {
+      "@id": "urn:uuid:dbe91fb8-131e-4852-857b-5d22bda7588a",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-39"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1385,556,41"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1343,212,44",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:84937c24-3218-46c9-a131-11b78e0cc2fc",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-30"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1078,586,43"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1587,562,40",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=59,1716,543,48",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:6400599c-62b5-4eae-8503-166df01d6a2b",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-46"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=689,1618,574,50"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1078,586,43",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-42",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "toute bonne diligence mist en ceste matiere"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1544,523,52",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=48,1012,365,382",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:1d327a6e-0d78-49ed-8a87-b68826517505",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-37"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1319,565,44"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-20",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et mettre en moy sens et entendement si"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-21",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "vertueux que ce livre que j'ay commencie je le"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-22",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "puisse continuer et perseverer en tele maniere"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-23",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "que tous ceulz et celles qui le liront verront"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-24",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et oeront y puissent prendre esbatement"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-25",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et plaisance et je escheir en leur grace. On"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-26",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "dist et vray est que tous edefices sont ouvrez"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-27",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et maconnez l'une pierre apres l'autre et"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-28",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "toutes grosses rivieres sont faites et ras-"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-29",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "semblees de divers lieux et pluseurs sourgons,"
+    },
+    {
+      "@id": "urn:uuid:43ab9cbb-d799-4bf4-b509-f221ba062bef",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-29"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1045,593,43"
+      }
+    },
+    {
+      "@id": "urn:uuid:9088acea-0912-472b-b197-22653c259c66",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-27"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1784,517,56"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1476,528,53",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1557,591,35",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1784,517,56",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-8",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "guerres de France"
+    },
+    {
+      "@id": "urn:uuid:791b0b9b-2df3-4aeb-b3ac-bb6c7b8bc3ab",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-4"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=400,1008,226,37"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=389,1077,213,38",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:f1929b78-ce4f-42ed-86b7-58560d4436f3",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-17"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1442,525,47"
+      }
+    },
+    {
+      "@id": "urn:uuid:2ee67f3c-9c24-44a2-8107-1b29fb75c1f3",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-10"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1210,235,42"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-33",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "ou loing ou pres.Dont aussi pour attaindre"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-32",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "scet. Non pourquant rien n'est qui ne soit sceu"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-31",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "de pluseurs clers. Et ce que l'un ne scet l'autre"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-30",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "aussi les sciences sont estraites et compilees"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-37",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et avancement viennent, je me vueil fonder"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-36",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et de la benoite Vierge Marie dont tout confort"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-35",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "mencier. Premierement de la grace de Dieu"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-34",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et venir a la matiere que j'ay empris de com-"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-39",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "faites et rassemblees par venerable homme et"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=395,1250,210,37",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:544b566f-31a2-4dd1-8599-090fe33af878",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-34"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1215,560,37"
+      }
+    },
+    {
+      "@id": "urn:uuid:ae71dfc4-ca1d-4f09-ad9e-5e6cbc12a097",
+      "@type": "dcterms:Agent",
+      "foaf:mbox": "azaroth42@gmail.com",
+      "foaf:name": "SharedCanvas: Python/rdflib"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-38",
+      "@type": [
+        "cnt:ContentAsText",
+        "http://purl.org/dc/dcmitype/Text"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "et ordonner sur les vrayes croniques jadis"
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f1r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2217"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1548"
+      }
+    },
+    {
+      "@id": "urn:uuid:3eaa28a3-b439-46fe-8da2-fd3fb8f772c2",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-44"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1557,591,35"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1413,538,44",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1513,536,46",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:340507ee-e602-4de9-bd48-b30a95174a56",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-47"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=685,1655,580,39"
+      }
+    },
+    {
+      "@id": "urn:uuid:95ee1ef2-78ec-4dbc-9296-4d2287bc16e7",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-1"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=66,934,1195,50"
+      }
+    },
+    {
+      "@id": "urn:uuid:8bbb5a05-d26d-411e-8ecf-e3b5c576ac7a",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-20"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1544,523,52"
+      }
+    },
+    {
+      "@id": "urn:uuid:65c63845-13e0-4e75-9717-866cd5695318",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-13"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1315,214,35"
+      }
+    },
+    {
+      "@id": "urn:uuid:c437ff82-4081-4fad-a89c-1a8a3093c80f",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-15"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=73,1383,540,35"
+      }
+    },
+    {
+      "@id": "urn:uuid:0497e372-643e-45c6-b46d-f1972a89a250",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-25"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=59,1716,543,48"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1690,547,41",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=387,1047,244,39",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:b497696b-939a-46ee-823d-3cdd594c4365",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-26"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=68,1747,534,52"
+      }
+    },
+    {
+      "@id": "urn:uuid:4662ff56-7030-4a8d-87b4-268d730253e4",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-32"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1147,558,52"
+      }
+    },
+    {
+      "@id": "urn:uuid:bfa84644-f0e4-4869-b866-f9367a7986be",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-38"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1350,549,33"
+      }
+    },
+    {
+      "@id": "urn:uuid:b66a3319-d4ae-4278-b478-30c93e02f3fc",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-49"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1721,545,47"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1252,565,41",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:cebf3467-f57a-4a95-b8a0-d554f0455808",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-24"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1684,521,43"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1418,578,48",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:68b101f6-50d9-4cab-a0e3-4e0df3e781dd",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-8"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=391,1145,226,46"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1282,586,50",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=689,1618,574,50",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "urn:uuid:0e02b140-051b-4b40-9e67-33808b5fc236",
+      "@type": [
+        "oac:Annotation",
+        "dms:TextAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Line-f1r-33"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1180,561,43"
+      }
+    }
+  ]
+}
+
+
