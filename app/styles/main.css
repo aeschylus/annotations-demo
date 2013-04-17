@@ -25,6 +25,6 @@ height:100%;
 }
 .annotation:hover {
 stroke: white;
-stroke-width:10px;
+stroke-width:6px;
 }
 
