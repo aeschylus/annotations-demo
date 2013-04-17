@@ -1,0 +1,3815 @@
+{
+  "@context": {
+    "cc": "http://creativecommons.org/ns#",
+    "cnt": "http://www.w3.org/2008/content#",
+    "coo": "http://purl.org/coo/ns#",
+    "ctag": "http://commontag.org/ns#",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dms": "http://dms.stanford.edu/ns/",
+    "eco": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#",
+    "exif": "http://www.w3.org/2003/12/exif/ns#",
+    "fab": "http://purl.org/fab/ns#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "gr": "http://purl.org/goodrelations/v1#",
+    "grddl": "http://www.w3.org/2003/g/data-view#",
+    "ical": "http://www.w3.org/2002/12/cal/icaltzd#",
+    "oac": "http://www.openannotation.org/ns/",
+    "og": "http://ogp.me/ns#",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rev": "http://purl.org/stuff/rev#",
+    "rif": "http://www.w3.org/2007/rif#",
+    "s": "http://schema.org/",
+    "sioc": "http://rdfs.org/sioc/ns#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "tio": "http://purl.org/tio/ns#",
+    "v": "http://rdf.data-vocabulary.org/#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "void": "http://rdfs.org/ns/void#",
+    "vso": "http://purl.org/vso/ns#",
+    "vvo": "http://purl.org/vvo/ns#",
+    "wdr": "http://www.w3.org/2007/05/powder#",
+    "wdsr": "http://www.w3.org/2007/05/powder-s#",
+    "xhv": "http://www.w3.org/1999/xhtml/vocab#",
+    "xro": "http://www.stalsoft.com/ontologies/xro/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "urn:uuid:46e74f54-a8e2-41f1-a3a1-24660472c584",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f20r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/ImageAnnotations",
+      "@type": [
+        "rdf:List",
+        "dms:ImageAnnotationList",
+        "ore:Aggregation"
+      ],
+      "ore:aggregates": [
+        {
+          "@id": "urn:uuid:d26b2e6e-955f-409a-89e9-00c51d942c7b"
+        },
+        {
+          "@id": "urn:uuid:f91821e4-0426-4bbb-a0d7-1fbe4fb4270d"
+        },
+        {
+          "@id": "urn:uuid:de53f54e-1957-4f47-9480-249a52bd586c"
+        },
+        {
+          "@id": "urn:uuid:e8aa42c0-1c84-49af-977e-6daecc7ed04b"
+        },
+        {
+          "@id": "urn:uuid:3dc9fb6e-1f28-4ad0-97a3-ffb0d613b3bf"
+        },
+        {
+          "@id": "urn:uuid:35166f78-8354-4a80-9306-d7cecb5e43a0"
+        },
+        {
+          "@id": "urn:uuid:bed795a9-f336-4e3a-b1c3-10c8f380e3b8"
+        },
+        {
+          "@id": "urn:uuid:b6cf1868-68f9-4994-90dd-240a4a959358"
+        },
+        {
+          "@id": "urn:uuid:637d0090-9e37-4360-bbc2-851d5af0dcc4"
+        },
+        {
+          "@id": "urn:uuid:95b0c8db-eb4d-4e30-a79d-915306b8ae2f"
+        },
+        {
+          "@id": "urn:uuid:5d85a985-396f-4548-bc24-87649efd7283"
+        },
+        {
+          "@id": "urn:uuid:5c02776d-6274-4e15-97bc-93c57a30588e"
+        },
+        {
+          "@id": "urn:uuid:5b393dd6-2234-4fbc-bc5b-a5e7a7ae5b53"
+        },
+        {
+          "@id": "urn:uuid:bde17fa8-8f89-456c-bd16-927531501c81"
+        },
+        {
+          "@id": "urn:uuid:df1351d1-778d-42be-bb77-822e75c79432"
+        },
+        {
+          "@id": "urn:uuid:8e911613-1fa2-4c9d-8638-70daae460297"
+        },
+        {
+          "@id": "urn:uuid:5d82a558-ab76-49f3-9047-f66459139f4e"
+        },
+        {
+          "@id": "urn:uuid:fef69459-6e69-4d8d-87f3-4744f867a2a5"
+        },
+        {
+          "@id": "urn:uuid:989e559f-c7e8-4fee-a7c1-f72c4f6507b0"
+        },
+        {
+          "@id": "urn:uuid:95c40e64-3c0f-4e60-8ee0-bf522c06ec65"
+        },
+        {
+          "@id": "urn:uuid:03b87dce-3e73-49f0-969d-92ba1b03a6d4"
+        },
+        {
+          "@id": "urn:uuid:273b31db-fb5e-4c98-95a7-0c5deea0fda3"
+        },
+        {
+          "@id": "urn:uuid:37cfdbcb-1ada-4864-887f-109ec15d868c"
+        },
+        {
+          "@id": "urn:uuid:d3b5ae61-10de-4f18-9187-0398e87621ff"
+        },
+        {
+          "@id": "urn:uuid:cc9efb2c-3567-4ee6-a863-27a6a13e1664"
+        },
+        {
+          "@id": "urn:uuid:a12ca557-37ed-4ee2-ab06-0e65da7448d6"
+        },
+        {
+          "@id": "urn:uuid:e48fd495-c272-46ba-a81a-c4e21e95eda5"
+        },
+        {
+          "@id": "urn:uuid:baa5096e-659d-4f10-9322-5faa9172b12f"
+        },
+        {
+          "@id": "urn:uuid:a264b60b-591d-4eb2-b383-baac23a55ce2"
+        },
+        {
+          "@id": "urn:uuid:97f94b9c-3008-4b5d-8617-440d1a4090f6"
+        },
+        {
+          "@id": "urn:uuid:252346f0-69a7-4a69-93df-b251c5d9a36a"
+        },
+        {
+          "@id": "urn:uuid:90752a09-4b72-4b1f-bb5a-148aa18d049d"
+        },
+        {
+          "@id": "urn:uuid:ddb9b9e0-8d36-422f-8e89-7566378b35fc"
+        },
+        {
+          "@id": "urn:uuid:974247aa-a851-4faa-bfaf-c03f277b2467"
+        },
+        {
+          "@id": "urn:uuid:c67c0c24-25bf-4c23-b4fb-5ce66269a879"
+        },
+        {
+          "@id": "urn:uuid:844e417a-3229-4cb3-90ee-9dffd9b0a6b9"
+        },
+        {
+          "@id": "urn:uuid:77927e2f-aa84-4a27-b888-76135883f944"
+        },
+        {
+          "@id": "urn:uuid:5ffa8703-5964-4fe6-a998-8e3c3ee2c076"
+        },
+        {
+          "@id": "urn:uuid:a079ae32-1dae-4865-a3a9-05a9c2edbe0c"
+        },
+        {
+          "@id": "urn:uuid:ef21eb38-ad9c-4dcf-bbf1-dd2e55f85f4b"
+        },
+        {
+          "@id": "urn:uuid:2374e86d-d571-4052-b6ce-13eabba3d604"
+        },
+        {
+          "@id": "urn:uuid:42c75bcc-7378-4d18-9653-ace245b7b4da"
+        },
+        {
+          "@id": "urn:uuid:3b53da61-cb1e-44e4-a967-bc5253c7bc64"
+        },
+        {
+          "@id": "urn:uuid:68affbce-3ca0-46aa-99e5-1eb3d979e0eb"
+        },
+        {
+          "@id": "urn:uuid:be4a603f-d959-44a6-80f1-6d631686c0e8"
+        },
+        {
+          "@id": "urn:uuid:377a6417-3629-49e6-a0fe-d2dcbf7b3818"
+        },
+        {
+          "@id": "urn:uuid:3b2c1387-e277-414f-b407-d767038b2f45"
+        },
+        {
+          "@id": "urn:uuid:8dad846c-dac7-4995-ab5a-9e09d0a25f6d"
+        },
+        {
+          "@id": "urn:uuid:53516929-26a7-4ac9-af18-a2b11d5ffc07"
+        },
+        {
+          "@id": "urn:uuid:30bbd393-9cd6-4fe1-96cc-8c185c6ea6fd"
+        },
+        {
+          "@id": "urn:uuid:bc192e28-0891-4bb7-96ca-7c76bd3fc263"
+        },
+        {
+          "@id": "urn:uuid:fc63e966-f3ae-4ecf-8300-ce62551a1fa3"
+        },
+        {
+          "@id": "urn:uuid:0fefee72-fe9f-467c-865c-5a9d6a36c066"
+        },
+        {
+          "@id": "urn:uuid:9e67f360-1707-413b-b788-d91a9bf8b99b"
+        },
+        {
+          "@id": "urn:uuid:500d43dc-5865-4160-b239-c77d90e8129e"
+        },
+        {
+          "@id": "urn:uuid:54b76a0a-c012-426e-bba8-4b4c3dfde943"
+        },
+        {
+          "@id": "urn:uuid:8dae486d-793d-4023-9766-8e0e0ec8e66e"
+        },
+        {
+          "@id": "urn:uuid:b568d99e-63ad-4f18-9209-6f869d6e16ff"
+        },
+        {
+          "@id": "urn:uuid:01d4c47a-a5a4-4584-8124-9082b464fe01"
+        },
+        {
+          "@id": "urn:uuid:e6a5fbd7-a054-4db7-8532-7b122821da74"
+        },
+        {
+          "@id": "urn:uuid:46e74f54-a8e2-41f1-a3a1-24660472c584"
+        },
+        {
+          "@id": "urn:uuid:9fa551d4-83b9-4fec-911e-3031b05fec72"
+        },
+        {
+          "@id": "urn:uuid:817d23dc-5a05-4064-ab86-a3a671ded6bf"
+        },
+        {
+          "@id": "urn:uuid:f2691fde-06ad-4ea8-b7c8-9a338a27532d"
+        },
+        {
+          "@id": "urn:uuid:a3b94801-a8cd-4c67-88c0-2df24981ada1"
+        },
+        {
+          "@id": "urn:uuid:f9295713-e1d8-4a9a-91d0-c9a1034de97b"
+        },
+        {
+          "@id": "urn:uuid:c32b6cb4-e4ba-48c0-987d-f0deda66c952"
+        },
+        {
+          "@id": "urn:uuid:fdf83f84-798a-488c-b0c9-2f06d0cd44ac"
+        },
+        {
+          "@id": "urn:uuid:bbd96655-e45f-4bcf-8a2b-0e0b63ebbe34"
+        },
+        {
+          "@id": "urn:uuid:7ac4e40b-3ad3-4a77-acb4-e346aab69d5f"
+        },
+        {
+          "@id": "urn:uuid:a995bc64-39be-47c2-ad19-abe3bfd9ae0d"
+        },
+        {
+          "@id": "urn:uuid:361043ed-9274-4348-a1c1-589cc872dc34"
+        },
+        {
+          "@id": "urn:uuid:83de4d65-0b76-4d92-9ff1-21c9fdb41a6b"
+        },
+        {
+          "@id": "urn:uuid:519183d6-c081-4a1b-98f8-1fa330546a1b"
+        }
+      ],
+      "rdf:first": {
+        "@id": "urn:uuid:b6cf1868-68f9-4994-90dd-240a4a959358"
+      },
+      "rdf:rest": {
+        "@list": [
+          {
+            "@id": "urn:uuid:37cfdbcb-1ada-4864-887f-109ec15d868c"
+          },
+          {
+            "@id": "urn:uuid:637d0090-9e37-4360-bbc2-851d5af0dcc4"
+          },
+          {
+            "@id": "urn:uuid:3b53da61-cb1e-44e4-a967-bc5253c7bc64"
+          },
+          {
+            "@id": "urn:uuid:252346f0-69a7-4a69-93df-b251c5d9a36a"
+          },
+          {
+            "@id": "urn:uuid:baa5096e-659d-4f10-9322-5faa9172b12f"
+          },
+          {
+            "@id": "urn:uuid:ddb9b9e0-8d36-422f-8e89-7566378b35fc"
+          },
+          {
+            "@id": "urn:uuid:f2691fde-06ad-4ea8-b7c8-9a338a27532d"
+          },
+          {
+            "@id": "urn:uuid:3b2c1387-e277-414f-b407-d767038b2f45"
+          },
+          {
+            "@id": "urn:uuid:c67c0c24-25bf-4c23-b4fb-5ce66269a879"
+          },
+          {
+            "@id": "urn:uuid:a3b94801-a8cd-4c67-88c0-2df24981ada1"
+          },
+          {
+            "@id": "urn:uuid:d26b2e6e-955f-409a-89e9-00c51d942c7b"
+          },
+          {
+            "@id": "urn:uuid:97f94b9c-3008-4b5d-8617-440d1a4090f6"
+          },
+          {
+            "@id": "urn:uuid:817d23dc-5a05-4064-ab86-a3a671ded6bf"
+          },
+          {
+            "@id": "urn:uuid:273b31db-fb5e-4c98-95a7-0c5deea0fda3"
+          },
+          {
+            "@id": "urn:uuid:a079ae32-1dae-4865-a3a9-05a9c2edbe0c"
+          },
+          {
+            "@id": "urn:uuid:53516929-26a7-4ac9-af18-a2b11d5ffc07"
+          },
+          {
+            "@id": "urn:uuid:fc63e966-f3ae-4ecf-8300-ce62551a1fa3"
+          },
+          {
+            "@id": "urn:uuid:361043ed-9274-4348-a1c1-589cc872dc34"
+          },
+          {
+            "@id": "urn:uuid:d3b5ae61-10de-4f18-9187-0398e87621ff"
+          },
+          {
+            "@id": "urn:uuid:bc192e28-0891-4bb7-96ca-7c76bd3fc263"
+          },
+          {
+            "@id": "urn:uuid:989e559f-c7e8-4fee-a7c1-f72c4f6507b0"
+          },
+          {
+            "@id": "urn:uuid:bed795a9-f336-4e3a-b1c3-10c8f380e3b8"
+          },
+          {
+            "@id": "urn:uuid:5c02776d-6274-4e15-97bc-93c57a30588e"
+          },
+          {
+            "@id": "urn:uuid:90752a09-4b72-4b1f-bb5a-148aa18d049d"
+          },
+          {
+            "@id": "urn:uuid:a12ca557-37ed-4ee2-ab06-0e65da7448d6"
+          },
+          {
+            "@id": "urn:uuid:fdf83f84-798a-488c-b0c9-2f06d0cd44ac"
+          },
+          {
+            "@id": "urn:uuid:e48fd495-c272-46ba-a81a-c4e21e95eda5"
+          },
+          {
+            "@id": "urn:uuid:03b87dce-3e73-49f0-969d-92ba1b03a6d4"
+          },
+          {
+            "@id": "urn:uuid:35166f78-8354-4a80-9306-d7cecb5e43a0"
+          },
+          {
+            "@id": "urn:uuid:5d82a558-ab76-49f3-9047-f66459139f4e"
+          },
+          {
+            "@id": "urn:uuid:e6a5fbd7-a054-4db7-8532-7b122821da74"
+          },
+          {
+            "@id": "urn:uuid:95b0c8db-eb4d-4e30-a79d-915306b8ae2f"
+          },
+          {
+            "@id": "urn:uuid:844e417a-3229-4cb3-90ee-9dffd9b0a6b9"
+          },
+          {
+            "@id": "urn:uuid:bbd96655-e45f-4bcf-8a2b-0e0b63ebbe34"
+          },
+          {
+            "@id": "urn:uuid:5b393dd6-2234-4fbc-bc5b-a5e7a7ae5b53"
+          },
+          {
+            "@id": "urn:uuid:de53f54e-1957-4f47-9480-249a52bd586c"
+          },
+          {
+            "@id": "urn:uuid:c32b6cb4-e4ba-48c0-987d-f0deda66c952"
+          },
+          {
+            "@id": "urn:uuid:46e74f54-a8e2-41f1-a3a1-24660472c584"
+          },
+          {
+            "@id": "urn:uuid:cc9efb2c-3567-4ee6-a863-27a6a13e1664"
+          },
+          {
+            "@id": "urn:uuid:7ac4e40b-3ad3-4a77-acb4-e346aab69d5f"
+          },
+          {
+            "@id": "urn:uuid:500d43dc-5865-4160-b239-c77d90e8129e"
+          },
+          {
+            "@id": "urn:uuid:a995bc64-39be-47c2-ad19-abe3bfd9ae0d"
+          },
+          {
+            "@id": "urn:uuid:95c40e64-3c0f-4e60-8ee0-bf522c06ec65"
+          },
+          {
+            "@id": "urn:uuid:bde17fa8-8f89-456c-bd16-927531501c81"
+          },
+          {
+            "@id": "urn:uuid:df1351d1-778d-42be-bb77-822e75c79432"
+          },
+          {
+            "@id": "urn:uuid:3dc9fb6e-1f28-4ad0-97a3-ffb0d613b3bf"
+          },
+          {
+            "@id": "urn:uuid:e8aa42c0-1c84-49af-977e-6daecc7ed04b"
+          },
+          {
+            "@id": "urn:uuid:2374e86d-d571-4052-b6ce-13eabba3d604"
+          },
+          {
+            "@id": "urn:uuid:a264b60b-591d-4eb2-b383-baac23a55ce2"
+          },
+          {
+            "@id": "urn:uuid:8dae486d-793d-4023-9766-8e0e0ec8e66e"
+          },
+          {
+            "@id": "urn:uuid:83de4d65-0b76-4d92-9ff1-21c9fdb41a6b"
+          },
+          {
+            "@id": "urn:uuid:8dad846c-dac7-4995-ab5a-9e09d0a25f6d"
+          },
+          {
+            "@id": "urn:uuid:b568d99e-63ad-4f18-9209-6f869d6e16ff"
+          },
+          {
+            "@id": "urn:uuid:5ffa8703-5964-4fe6-a998-8e3c3ee2c076"
+          },
+          {
+            "@id": "urn:uuid:8e911613-1fa2-4c9d-8638-70daae460297"
+          },
+          {
+            "@id": "urn:uuid:ef21eb38-ad9c-4dcf-bbf1-dd2e55f85f4b"
+          },
+          {
+            "@id": "urn:uuid:01d4c47a-a5a4-4584-8124-9082b464fe01"
+          },
+          {
+            "@id": "urn:uuid:42c75bcc-7378-4d18-9653-ace245b7b4da"
+          },
+          {
+            "@id": "urn:uuid:5d85a985-396f-4548-bc24-87649efd7283"
+          },
+          {
+            "@id": "urn:uuid:30bbd393-9cd6-4fe1-96cc-8c185c6ea6fd"
+          },
+          {
+            "@id": "urn:uuid:974247aa-a851-4faa-bfaf-c03f277b2467"
+          },
+          {
+            "@id": "urn:uuid:377a6417-3629-49e6-a0fe-d2dcbf7b3818"
+          },
+          {
+            "@id": "urn:uuid:9fa551d4-83b9-4fec-911e-3031b05fec72"
+          },
+          {
+            "@id": "urn:uuid:0fefee72-fe9f-467c-865c-5a9d6a36c066"
+          },
+          {
+            "@id": "urn:uuid:9e67f360-1707-413b-b788-d91a9bf8b99b"
+          },
+          {
+            "@id": "urn:uuid:be4a603f-d959-44a6-80f1-6d631686c0e8"
+          },
+          {
+            "@id": "urn:uuid:77927e2f-aa84-4a27-b888-76135883f944"
+          },
+          {
+            "@id": "urn:uuid:54b76a0a-c012-426e-bba8-4b4c3dfde943"
+          },
+          {
+            "@id": "urn:uuid:68affbce-3ca0-46aa-99e5-1eb3d979e0eb"
+          },
+          {
+            "@id": "urn:uuid:fef69459-6e69-4d8d-87f3-4744f867a2a5"
+          },
+          {
+            "@id": "urn:uuid:f91821e4-0426-4bbb-a0d7-1fbe4fb4270d"
+          },
+          {
+            "@id": "urn:uuid:f9295713-e1d8-4a9a-91d0-c9a1034de97b"
+          },
+          {
+            "@id": "urn:uuid:519183d6-c081-4a1b-98f8-1fa330546a1b"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f29v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1500"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f29v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1500"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f29r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "urn:uuid:7ac4e40b-3ad3-4a77-acb4-e346aab69d5f",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f21r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f19r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2196"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f32r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2196"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f35v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1512"
+      }
+    },
+    {
+      "@id": "urn:uuid:637d0090-9e37-4360-bbc2-851d5af0dcc4",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f2r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f35r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1494"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f9v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1515"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f34r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1503"
+      }
+    },
+    {
+      "@id": "urn:uuid:2374e86d-d571-4052-b6ce-13eabba3d604",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "urn:uuid:727727e5-f2d2-4ca3-82a0-2b93ddbc1568"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f31r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f21r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f12r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f13v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2190"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f19v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2175"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1503"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f7v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f33v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1524"
+      }
+    },
+    {
+      "@id": "urn:uuid:e6a5fbd7-a054-4db7-8532-7b122821da74",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f16v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f12v",
+      "exif:height": {
+        "@type": "xf:width": {
+        "@type": "xsd:integer",
+        "@value": "1530"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f22v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2184"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "urn:uuid:519183d6-c081-4a1b-98f8-1fa330546a1b",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "urn:uuid:76b28fb3-8caa-4f2f-8649-216ccfa6bd64"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r#xywh=45,230,170,420"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f7v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f24v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2160"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1512"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f5r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1530"
+      }
+    },
+    {
+      "@id": "urn:uuid:42c75bcc-7378-4d18-9653-ace245b7b4da",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f30r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f13r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1533"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f1v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1521"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f1r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2217"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1548"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f8v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1545"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f28v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2175"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f15r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1533"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f26v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1503"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f28r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "urn:uuid:974247aa-a851-4faa-bfaf-c03f277b2467",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f31v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f30v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2184"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1497"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f27v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2181"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1497"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f24v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2160"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1512"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f36r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f36v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2187"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f9r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2226"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "urn:uuid:989e559f-c7e8-4fee-a7c1-f72c4f6507b0",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f11v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11v"
+      }
+    },
+    {
+      "@id": "urn:uuid:97f94b9c-3008-4b5d-8617-440d1a4090f6",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f7r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7r"
+      }
+    },
+    {
+      "@id": "urn:uuid:76b28fb3-8caa-4f2f-8649-216ccfa6bd64",
+      "@type": "oac:ConstrainedBody",
+      "oac:constrainedBy": {
+        "@id": "urn:uuid:e7f19d4d-424b-4a65-ab1d-23bfd3d05573"
+      },
+      "oac:constrains": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f34r-d.jpg"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f20v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "urn:uuid:252346f0-69a7-4a69-93df-b251c5d9a36a",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f3r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f13v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2190"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "urn:uuid:c32b6cb4-e4ba-48c0-987d-f0deda66c952",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f19v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f23r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2220"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f4r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2226"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "urn:uuid:a3b94801-a8cd-4c67-88c0-2df24981ada1",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f6r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6r"
+      }
+    },
+    {
+      "@id": "urn:uuid:01d4c47a-a5a4-4584-8124-9082b464fe01",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f29v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f2r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2190"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1548"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f6r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2229"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "urn:uuid:3b53da61-cb1e-44e4-a967-bc5253c7bc64",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f2v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2v"
+      }
+    },
+    {
+      "@id": "urn:uuid:e5c12519-e756-4442-a83d-556848c32714",
+      "@type": "dcterms:Agent",
+      "foaf:mbox": "azaroth42@gmail.com",
+      "foaf:name": "SharedCanvas: Python/rdflib"
+    },
+    {
+      "@id": "urn:uuid:727727e5-f2d2-4ca3-82a0-2b93ddbc1568",
+      "@type": "dms:ImageChoice",
+      "dms:option": [
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f25r.jpg"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f25r-c.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f1v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1521"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f8r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1539"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f34r-d.jpg",
+      "@type": "dms:Image",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "782"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "400"
+      }
+    },
+    {
+      "@id": "urn:uuid:83de4d65-0b76-4d92-9ff1-21c9fdb41a6b",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f26v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26v"
+      }
+    },
+    {
+      "@id": "urn:uuid:5d82a558-ab76-49f3-9047-f66459139f4e",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f16r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r"
+      }
+    },
+    {
+      "@id": "urn:uuid:bc192e28-0891-4bb7-96ca-7c76bd3fc263",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f11r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11r"
+      }
+    },
+    {
+      "@id": "urn:uuid:b6cf1868-68f9-4994-90dd-240a4a959358",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "urn:uuid:8a8ea8a4-303c-4e45-8a10-dde493e24045"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f1r-c.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "dc:title": "Color"
+    },
+    {
+      "@id": "urn:uuid:53516929-26a7-4ac9-af18-a2b11d5ffc07",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f9r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f14r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1539"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f14v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1536"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f9v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1515"
+      }
+    },
+    {
+      "@id": "urn:uuid:df1351d1-778d-42be-bb77-822e75c79432",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f23v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f12r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "urn:uuid:8dad846c-dac7-4995-ab5a-9e09d0a25f6d",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f27r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f33v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1524"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f10v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1530"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f33r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2199"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1506"
+      }
+    },
+    {
+      "@id": "urn:uuid:ef21eb38-ad9c-4dcf-bbf1-dd2e55f85f4b",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f29r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f29r"
+      }
+    },
+    {
+      "@id": "urn:uuid:f2691fde-06ad-4ea8-b7c8-9a338a27532d",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f4v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f23v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2166"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1485"
+      }
+    },
+    {
+      "@id": "urn:uuid:3b2c1387-e277-414f-b407-d767038b2f45",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f5r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f23r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2220"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f10r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2223"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f5r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1530"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f5v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1527"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f25v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2175"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1506"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f26r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2220"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1494"
+      }
+    },
+    {
+      "@id": "urn:uuid:03b87dce-3e73-49f0-969d-92ba1b03a6d4",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f15r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f21v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2187"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1497"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f21r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f6v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2199"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f35r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1494"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f36v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2187"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f20r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f15r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1533"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f28v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2175"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f15v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2232"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1506"
+      }
+    },
+    {
+      "@id": "urn:uuid:273b31db-fb5e-4c98-95a7-0c5deea0fda3",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f8r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8r"
+      }
+    },
+    {
+      "@id": "urn:uuid:e48fd495-c272-46ba-a81a-c4e21e95eda5",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f14v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14v"
+      }
+    },
+    {
+      "@id": "urn:uuid:95b0c8db-eb4d-4e30-a79d-915306b8ae2f",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f17r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f27r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2190"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f10v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1530"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f28r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "urn:uuid:f9295713-e1d8-4a9a-91d0-c9a1034de97b",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f16r-d.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r#xywh=640,780,590,410"
+      }
+    },
+    {
+      "@id": "urn:uuid:9e67f360-1707-413b-b788-d91a9bf8b99b",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f33v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f34r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1503"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f31v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1500"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r#xywh=45,230,170,420",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f34v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f22r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f23v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2166"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1485"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f22v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2184"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f25r-c.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "dms:colorSpace": "RGB"
+    },
+    {
+      "@id": "urn:uuid:bed795a9-f336-4e3a-b1c3-10c8f380e3b8",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f12r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f4v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "urn:uuid:bde17fa8-8f89-456c-bd16-927531501c81",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f23r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f23r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f4r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2226"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "urn:uuid:ddb9b9e0-8d36-422f-8e89-7566378b35fc",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f4r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f4r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f2r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2190"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1548"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f3v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2181"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1515"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f17r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2214"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1476"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f17v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2181"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "urn:uuid:5b393dd6-2234-4fbc-bc5b-a5e7a7ae5b53",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f18v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/ImageAnnotations.xml",
+      "@type": "ore:ResourceMap",
+      "dc:format": "application/rdf+xml",
+      "dcterms:creator": {
+        "@id": "urn:uuid:e5c12519-e756-4442-a83d-556848c32714"
+      },
+      "dcterms:modified": "2011-07-21T16:09:58Z",
+      "ore:describes": {
+        "@list": [
+          {
+            "@id": "urn:uuid:b6cf1868-68f9-4994-90dd-240a4a959358"
+          },
+          {
+            "@id": "urn:uuid:37cfdbcb-1ada-4864-887f-109ec15d868c"
+          },
+          {
+            "@id": "urn:uuid:637d0090-9e37-4360-bbc2-851d5af0dcc4"
+          },
+          {
+            "@id": "urn:uuid:3b53da61-cb1e-44e4-a967-bc5253c7bc64"
+          },
+          {
+            "@id": "urn:uuid:252346f0-69a7-4a69-93df-b251c5d9a36a"
+          },
+          {
+            "@id": "urn:uuid:baa5096e-659d-4f10-9322-5faa9172b12f"
+          },
+          {
+            "@id": "urn:uuid:ddb9b9e0-8d36-422f-8e89-7566378b35fc"
+          },
+          {
+            "@id": "urn:uuid:f2691fde-06ad-4ea8-b7c8-9a338a27532d"
+          },
+          {
+            "@id": "urn:uuid:3b2c1387-e277-414f-b407-d767038b2f45"
+          },
+          {
+            "@id": "urn:uuid:c67c0c24-25bf-4c23-b4fb-5ce66269a879"
+          },
+          {
+            "@id": "urn:uuid:a3b94801-a8cd-4c67-88c0-2df24981ada1"
+          },
+          {
+            "@id": "urn:uuid:d26b2e6e-955f-409a-89e9-00c51d942c7b"
+          },
+          {
+            "@id": "urn:uuid:97f94b9c-3008-4b5d-8617-440d1a4090f6"
+          },
+          {
+            "@id": "urn:uuid:817d23dc-5a05-4064-ab86-a3a671ded6bf"
+          },
+          {
+            "@id": "urn:uuid:273b31db-fb5e-4c98-95a7-0c5deea0fda3"
+          },
+          {
+            "@id": "urn:uuid:a079ae32-1dae-4865-a3a9-05a9c2edbe0c"
+          },
+          {
+            "@id": "urn:uuid:53516929-26a7-4ac9-af18-a2b11d5ffc07"
+          },
+          {
+            "@id": "urn:uuid:fc63e966-f3ae-4ecf-8300-ce62551a1fa3"
+          },
+          {
+            "@id": "urn:uuid:361043ed-9274-4348-a1c1-589cc872dc34"
+          },
+          {
+            "@id": "urn:uuid:d3b5ae61-10de-4f18-9187-0398e87621ff"
+          },
+          {
+            "@id": "urn:uuid:bc192e28-0891-4bb7-96ca-7c76bd3fc263"
+          },
+          {
+            "@id": "urn:uuid:989e559f-c7e8-4fee-a7c1-f72c4f6507b0"
+          },
+          {
+            "@id": "urn:uuid:bed795a9-f336-4e3a-b1c3-10c8f380e3b8"
+          },
+          {
+            "@id": "urn:uuid:5c02776d-6274-4e15-97bc-93c57a30588e"
+          },
+          {
+            "@id": "urn:uuid:90752a09-4b72-4b1f-bb5a-148aa18d049d"
+          },
+          {
+            "@id": "urn:uuid:a12ca557-37ed-4ee2-ab06-0e65da7448d6"
+          },
+          {
+            "@id": "urn:uuid:fdf83f84-798a-488c-b0c9-2f06d0cd44ac"
+          },
+          {
+            "@id": "urn:uuid:e48fd495-c272-46ba-a81a-c4e21e95eda5"
+          },
+          {
+            "@id": "urn:uuid:03b87dce-3e73-49f0-969d-92ba1b03a6d4"
+          },
+          {
+            "@id": "urn:uuid:35166f78-8354-4a80-9306-d7cecb5e43a0"
+          },
+          {
+            "@id": "urn:uuid:5d82a558-ab76-49f3-9047-f66459139f4e"
+          },
+          {
+            "@id": "urn:uuid:e6a5fbd7-a054-4db7-8532-7b122821da74"
+          },
+          {
+            "@id": "urn:uuid:95b0c8db-eb4d-4e30-a79d-915306b8ae2f"
+          },
+          {
+            "@id": "urn:uuid:844e417a-3229-4cb3-90ee-9dffd9b0a6b9"
+          },
+          {
+            "@id": "urn:uuid:bbd96655-e45f-4bcf-8a2b-0e0b63ebbe34"
+          },
+          {
+            "@id": "urn:uuid:5b393dd6-2234-4fbc-bc5b-a5e7a7ae5b53"
+          },
+          {
+            "@id": "urn:uuid:de53f54e-1957-4f47-9480-249a52bd586c"
+          },
+          {
+            "@id": "urn:uuid:c32b6cb4-e4ba-48c0-987d-f0deda66c952"
+          },
+          {
+            "@id": "urn:uuid:46e74f54-a8e2-41f1-a3a1-24660472c584"
+          },
+          {
+            "@id": "urn:uuid:cc9efb2c-3567-4ee6-a863-27a6a13e1664"
+          },
+          {
+            "@id": "urn:uuid:7ac4e40b-3ad3-4a77-acb4-e346aab69d5f"
+          },
+          {
+            "@id": "urn:uuid:500d43dc-5865-4160-b239-c77d90e8129e"
+          },
+          {
+            "@id": "urn:uuid:a995bc64-39be-47c2-ad19-abe3bfd9ae0d"
+          },
+          {
+            "@id": "urn:uuid:95c40e64-3c0f-4e60-8ee0-bf522c06ec65"
+          },
+          {
+            "@id": "urn:uuid:bde17fa8-8f89-456c-bd16-927531501c81"
+          },
+          {
+            "@id": "urn:uuid:df1351d1-778d-42be-bb77-822e75c79432"
+          },
+          {
+            "@id": "urn:uuid:3dc9fb6e-1f28-4ad0-97a3-ffb0d613b3bf"
+          },
+          {
+            "@id": "urn:uuid:e8aa42c0-1c84-49af-977e-6daecc7ed04b"
+          },
+          {
+            "@id": "urn:uuid:2374e86d-d571-4052-b6ce-13eabba3d604"
+          },
+          {
+            "@id": "urn:uuid:a264b60b-591d-4eb2-b383-baac23a55ce2"
+          },
+          {
+            "@id": "urn:uuid:8dae486d-793d-4023-9766-8e0e0ec8e66e"
+          },
+          {
+            "@id": "urn:uuid:83de4d65-0b76-4d92-9ff1-21c9fdb41a6b"
+          },
+          {
+            "@id": "urn:uuid:8dad846c-dac7-4995-ab5a-9e09d0a25f6d"
+          },
+          {
+            "@id": "urn:uuid:b568d99e-63ad-4f18-9209-6f869d6e16ff"
+          },
+          {
+            "@id": "urn:uuid:5ffa8703-5964-4fe6-a998-8e3c3ee2c076"
+          },
+          {
+            "@id": "urn:uuid:8e911613-1fa2-4c9d-8638-70daae460297"
+          },
+          {
+            "@id": "urn:uuid:ef21eb38-ad9c-4dcf-bbf1-dd2e55f85f4b"
+          },
+          {
+            "@id": "urn:uuid:01d4c47a-a5a4-4584-8124-9082b464fe01"
+          },
+          {
+            "@id": "urn:uuid:42c75bcc-7378-4d18-9653-ace245b7b4da"
+          },
+          {
+            "@id": "urn:uuid:5d85a985-396f-4548-bc24-87649efd7283"
+          },
+          {
+            "@id": "urn:uuid:30bbd393-9cd6-4fe1-96cc-8c185c6ea6fd"
+          },
+          {
+            "@id": "urn:uuid:974247aa-a851-4faa-bfaf-c03f277b2467"
+          },
+          {
+            "@id": "urn:uuid:377a6417-3629-49e6-a0fe-d2dcbf7b3818"
+          },
+          {
+            "@id": "urn:uuid:9fa551d4-83b9-4fec-911e-3031b05fec72"
+          },
+          {
+            "@id": "urn:uuid:0fefee72-fe9f-467c-865c-5a9d6a36c066"
+          },
+          {
+            "@id": "urn:uuid:9e67f360-1707-413b-b788-d91a9bf8b99b"
+          },
+          {
+            "@id": "urn:uuid:be4a603f-d959-44a6-80f1-6d631686c0e8"
+          },
+          {
+            "@id": "urn:uuid:77927e2f-aa84-4a27-b888-76135883f944"
+          },
+          {
+            "@id": "urn:uuid:54b76a0a-c012-426e-bba8-4b4c3dfde943"
+          },
+          {
+            "@id": "urn:uuid:68affbce-3ca0-46aa-99e5-1eb3d979e0eb"
+          },
+          {
+            "@id": "urn:uuid:fef69459-6e69-4d8d-87f3-4744f867a2a5"
+          },
+          {
+            "@id": "urn:uuid:f91821e4-0426-4bbb-a0d7-1fbe4fb4270d"
+          },
+          {
+            "@id": "urn:uuid:f9295713-e1d8-4a9a-91d0-c9a1034de97b"
+          },
+          {
+            "@id": "urn:uuid:519183d6-c081-4a1b-98f8-1fa330546a1b"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "urn:uuid:77927e2f-aa84-4a27-b888-76135883f944",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f34v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f30r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2199"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "urn:uuid:a079ae32-1dae-4865-a3a9-05a9c2edbe0c",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f8v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8v"
+      }
+    },
+    {
+      "@id": "urn:uuid:817d23dc-5a05-4064-ab86-a3a671ded6bf",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f7v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f25r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2214"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f16r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2226"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1527"
+      }
+    },
+    {
+      "@id": "urn:uuid:5c02776d-6274-4e15-97bc-93c57a30588e",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f12v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f12v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f16v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1521"
+      }
+    },
+    {
+      "@id": "urn:uuid:500d43dc-5865-4160-b239-c77d90e8129e",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f21v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f21v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f21v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2187"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1497"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f7r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1533"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f31r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f26r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2220"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1494"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f31v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1500"
+      }
+    },
+    {
+      "@id": "urn:uuid:844e417a-3229-4cb3-90ee-9dffd9b0a6b9",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f17v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17v"
+      }
+    },
+    {
+      "@id": "urn:uuid:377a6417-3629-49e6-a0fe-d2dcbf7b3818",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f32r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f24r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f3v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2181"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1515"
+      }
+    },
+    {
+      "@id": "urn:uuid:fdf83f84-798a-488c-b0c9-2f06d0cd44ac",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f14r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f3r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2220"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1545"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f3r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2220"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1545"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f22r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f36r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f2v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f2v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f1r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "dc:title": "Black & White",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2217"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1548"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f2v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f4v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1518"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f13r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2208"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1533"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f17v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2181"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "urn:uuid:37cfdbcb-1ada-4864-887f-109ec15d868c",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f1v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f1v"
+      }
+    },
+    {
+      "@id": "urn:uuid:a995bc64-39be-47c2-ad19-abe3bfd9ae0d",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f22r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f16v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1521"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f11r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2232"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1527"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f18r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1476"
+      }
+    },
+    {
+      "@id": "urn:uuid:30bbd393-9cd6-4fe1-96cc-8c185c6ea6fd",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f31r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f31r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f24r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "urn:uuid:90752a09-4b72-4b1f-bb5a-148aa18d049d",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f13r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13r"
+      }
+    },
+    {
+      "@id": "urn:uuid:d3b5ae61-10de-4f18-9187-0398e87621ff",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f10v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f32v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2172"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1494"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f34v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "urn:uuid:68affbce-3ca0-46aa-99e5-1eb3d979e0eb",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f35v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f32r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2196"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1509"
+      }
+    },
+    {
+      "@id": "urn:uuid:9fa551d4-83b9-4fec-911e-3031b05fec72",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f32v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f32v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f14r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f14r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1539"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f16r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2226"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1527"
+      }
+    },
+    {
+      "@id": "urn:uuid:0fefee72-fe9f-467c-865c-5a9d6a36c066",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f33r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f33r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f16r-d.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ]
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f25v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2175"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1506"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f32v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2172"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1494"
+      }
+    },
+    {
+      "@id": "urn:uuid:e8aa42c0-1c84-49af-977e-6daecc7ed04b",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f24v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f20r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "urn:uuid:54b76a0a-c012-426e-bba8-4b4c3dfde943",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f35r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f35r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f6v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2199"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f7r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f7r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1533"
+      }
+    },
+    {
+      "@id": "urn:uuid:e7f19d4d-424b-4a65-ab1d-23bfd3d05573",
+      "@type": [
+        "oac:SvgConstraint",
+        "cnt:ContentAsText"
+      ],
+      "cnt:characterEncoding": "UTF-8",
+      "cnt:chars": "<path xmlns='http://www.w3.org/2000/svg' d='M 62 40 L 375 50 L 175 750 L 85 750 L 80 660 L 160 500 L 150 160 L 60 130 z '/>"
+    },
+    {
+      "@id": "urn:uuid:8a8ea8a4-303c-4e45-8a10-dde493e24045",
+      "@type": "dms:ImageChoice",
+      "dms:option": [
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f1r.jpg"
+        },
+        {
+          "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f1r-c.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "urn:uuid:b568d99e-63ad-4f18-9209-6f869d6e16ff",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f27v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27v"
+      }
+    },
+    {
+      "@id": "urn:uuid:3dc9fb6e-1f28-4ad0-97a3-ffb0d613b3bf",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f24r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f24r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f8r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2211"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1539"
+      }
+    },
+    {
+      "@id": "urn:uuid:95c40e64-3c0f-4e60-8ee0-bf522c06ec65",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f22v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f22v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f8v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f8v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1545"
+      }
+    },
+    {
+      "@id": "urn:uuid:fef69459-6e69-4d8d-87f3-4744f867a2a5",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f36r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36r"
+      }
+    },
+    {
+      "@id": "urn:uuid:de53f54e-1957-4f47-9480-249a52bd586c",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f19r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f30r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2199"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f6r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value":s "2229"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f5v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1527"
+      }
+    },
+    {
+      "@id": "urn:uuid:5d85a985-396f-4548-bc24-87649efd7283",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f30v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f20v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f27v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2181"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1497"
+      }
+    },
+    {
+      "@id": "urn:uuid:c67c0c24-25bf-4c23-b4fb-5ce66269a879",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f5v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f5v"
+      }
+    },
+    {
+      "@id": "urn:uuid:f91821e4-0426-4bbb-a0d7-1fbe4fb4270d",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f36v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f36v"
+      }
+    },
+    {
+      "@id": "urn:uuid:8dae486d-793d-4023-9766-8e0e0ec8e66e",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f26r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f29r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1482"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f18v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "urn:uuid:a12ca557-37ed-4ee2-ab06-0e65da7448d6",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f13v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f13v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f18r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2193"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1476"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f15v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2232"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1506"
+      }
+    },
+    {
+      "@id": "urn:uuid:d26b2e6e-955f-409a-89e9-00c51d942c7b",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f6v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f6v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f10r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2223"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    },
+    {
+      "@id": "urn:uuid:a264b60b-591d-4eb2-b383-baac23a55ce2",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f25v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f25v"
+      }
+    },
+    {
+      "@id": "urn:uuid:5ffa8703-5964-4fe6-a998-8e3c3ee2c076",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f28r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f27r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f27r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2190"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "urn:uuid:be4a603f-d959-44a6-80f1-6d631686c0e8",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f34r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f33r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2199"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1506"
+      }
+    },
+    {
+      "@id": "urn:uuid:361043ed-9274-4348-a1c1-589cc872dc34",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f10r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f10r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f11v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1554"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r#xywh=640,780,590,410",
+      "@type": "dms:CanvasSegment",
+      "dcterms:isPartOf": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f26v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f26v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2178"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1503"
+      }
+    },
+    {
+      "@id": "urn:uuid:fc63e966-f3ae-4ecf-8300-ce62551a1fa3",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f9v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f9v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f11v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2205"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1554"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f25r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "dms:colorSpace": "BW",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2214"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "urn:uuid:35166f78-8354-4a80-9306-d7cecb5e43a0",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f15v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f15v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f11r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f11r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2232"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1527"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f12v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2199"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1530"
+      }
+    },
+    {
+      "@id": "urn:uuid:baa5096e-659d-4f10-9322-5faa9172b12f",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f3v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f3v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f30v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f30v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2184"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1497"
+      }
+    },
+    {
+      "@id": "urn:uuid:bbd96655-e45f-4bcf-8a2b-0e0b63ebbe34",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f18r.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f18r"
+      }
+    },
+    {
+      "@id": "urn:uuid:8e911613-1fa2-4c9d-8638-70daae460297",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f28v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f28v"
+      }
+    },
+    {
+      "@id": "urn:uuid:cc9efb2c-3567-4ee6-a863-27a6a13e1664",
+      "@type": [
+        "oac:Annotation",
+        "dms:ImageAnnotation"
+      ],
+      "oac:hasBody": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f20v.jpg"
+      },
+      "oac:hasTarget": {
+        "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f20v"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19v",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f19v",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2175"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1503"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f18v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1491"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f19r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f19r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2196"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1488"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f14v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2202"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1536"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/Canvas-f17r",
+      "@type": "dms:Canvas",
+      "dc:title": "M804 f17r",
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2214"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1476"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f35v.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2169"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1512"
+      }
+    },
+    {
+      "@id": "http://www.shared-canvas.org/impl/demo1/res/image-f9r.jpg",
+      "@type": [
+        "http://purl.org/dc/dcmitype/Image",
+        "dms:ImageBody"
+      ],
+      "exif:height": {
+        "@type": "xsd:integer",
+        "@value": "2226"
+      },
+      "exif:width": {
+        "@type": "xsd:integer",
+        "@value": "1542"
+      }
+    }
+  ]
+}
+
+
