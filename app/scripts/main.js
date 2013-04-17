@@ -16,7 +16,16 @@
         d3.json('data/Transcriptions-f1r.json', function (error, json) {
             console.log(json);
             window.annos = json;
-            return json;
+
+            var annotations = [];
+            annotations = json['@graph'];
+            annotations.forEach(function(item) {
+                if (item['@type'][0] === "cnt:ContentAsText") {
+                console.log(item['cnt:chars']);
+                };
+            });
+            
+            return annotations;
         });
     }
 
@@ -39,12 +48,24 @@
 
     console.log(annotations);
 
+    function bindEvents() {
+        $('.annotation').on('click', clickAnnotation);
+    }
+
     function render() {
 
     }
 
+    // Event Handlers
+
+    function clickAnnotation() {
+        $(this).attr('class','annotation selected');
+        var id = $(this).parent().attr('id');
+    }
+
     function init() {
         collectAnnotations();
+        bindEvents();
         render();
     }
 
@@ -58,7 +79,7 @@
         .append('svg')
         .attr('height', "15")
         .attr('width', "15")
-        .attr('id', function(d) { return d.id; })
+        .attr('id', function(d) { console.log(d.id); return d.id; })
         .append('circle')
         .attr('class', 'annotation')
         .attr('r', '4')

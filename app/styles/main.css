@@ -27,4 +27,7 @@ height:100%;
 stroke: white;
 stroke-width:6px;
 }
-
+.annotation.selected {
+    stroke:orangered;
+    stroke-width:7px;
+}
