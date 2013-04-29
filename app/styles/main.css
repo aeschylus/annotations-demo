@@ -32,16 +32,16 @@ p {
 }
 .annotation {
     transition: all .15s ease-out;
-
+    stroke: white;
+    stroke-width:3px;
+    fill-opacity:0.1;
 }
 .annotation:hover {
-    stroke: white;
-    stroke-width:6px;
     transition: all .15s ease-out;
+    fill-opacity:0.2;
 }
 .annotation.selected {
     stroke:orangered;
-    stroke-width:7px;
     transition: all .15s ease-out;
 }
 #sidepanel {
