@@ -2,8 +2,13 @@ window.DM = (function ($, d3, openseadragon, undefined) {
 
     'use strict';
 
-    var annotations = [0,0,0,0,0],
-    width =  3071,
+    var dm = {};
+
+    dm.annotations = [];
+    dm.getAnnotations = function () {
+        return dm.annotations;
+    };
+    var width =  3071,
     height = 4851;
 
     function genUUID() {
@@ -14,7 +19,7 @@ window.DM = (function ($, d3, openseadragon, undefined) {
     }
 
     function buildAnnotations(src) {
-        annotations = $.get('data/Transcriptions-f1r.json', function (json) {
+        $.get('data/Transcriptions-f1r.json', function (json) {
             var rawAnnos = json['@graph'],
             commentaryBodies = {};
             window.commentaryBodies = commentaryBodies;
@@ -40,14 +45,15 @@ window.DM = (function ($, d3, openseadragon, undefined) {
                         className: 'text_commentary'
                     };
                     console.log(itemId);
-                    annotations.push(annotation);
+                    dm.annotations.push(annotation);
                 }
             });
-            console.log(annotations);
-            return annotations;
+            console.log(dm.annotations);
+            return dm.annotations;
         });
+        return dm.annotations;
     }
-
+console.log(buildAnnotations());
     function createAnnotation() {
         var annotation = {
             id: genUUID(),
@@ -73,8 +79,8 @@ window.DM = (function ($, d3, openseadragon, undefined) {
     function render() {
         var $annotationCard = $('.annotationCard'),
         $annotationsTotal = $('.annotationsTotal');
-        // $annotationsTotal.text(annotations.length);
-        // $annotationsTotal.text(annotations.length);
+        $annotationsTotal.text(dm.getAnnotations.length);
+        $annotationsTotal.text(dm.getAnnotations.length);
     }
 
     // Event Handlers
@@ -91,13 +97,13 @@ window.DM = (function ($, d3, openseadragon, undefined) {
     }
 
     function init() {
-        annotations = buildAnnotations();
+        buildAnnotations();
         bindEvents();
         render();
     }
 
     return {
-        annotations: annotations,
+        annotations: dm.annotations,
         init: init,
         render: render
     };
