@@ -1,4 +1,5 @@
 (function ($, d3, openseadragon, undefined) {
+    
     'use strict';
 
     var annotations = [],
@@ -14,17 +15,34 @@
 
     function collectAnnotations(json) {
         d3.json('data/Transcriptions-f1r.json', function (error, json) {
-            console.log(json);
-            window.annos = json;
+            var rawAnnos = json['@graph'],
+            commentaryBodies = {};
+            window.commentaryBodies = commentaryBodies;
+            rawAnnos.forEach(function (item) {
 
-            var annotations = [];
-            annotations = json['@graph'];
-            annotations.forEach(function(item) {
-                if (item['@type'][0] === "cnt:ContentAsText") {
-                console.log(item['cnt:chars']);
-                };
+                function commentaryBodyById(id) {
+                    return commentaryBodies[id];
+                }
+
+                if (item['@type'][0] === 'cnt:ContentAsText') {
+                    commentaryBodies[item['@id']] = item['cnt:chars'];
+                } else if (item['@type'][1] === 'dms:TextAnnotation') {
+                    var itemId = item['oac:hasBody']['@id'],
+                    annotation = {
+                        id: genUUID(),
+                        px: Math.random() * width,
+                        py: Math.random() * height,
+                        width: Math.random() * width / 4,
+                        height: Math.random() * height / 5,
+                        title: 'Behold',
+                        body: commentaryBodyById(itemId),
+                        className: 'text_commentary'
+                    };
+                    console.log(itemId);
+                    annotations.push(annotation);
+                }
             });
-            
+            console.log(annotations);
             return annotations;
         });
     }
@@ -42,14 +60,14 @@
         annotations.push(annotation);
     }
 
-    for (var i = 0; i < 1080; i ++) {
-        createAnnotation();
-    }
+    // for (var i = 0; i < 280; i ++) {
+    //     createAnnotation();
+    // }
 
-    console.log(annotations);
 
     function bindEvents() {
         $('.annotation').on('click', clickAnnotation);
+        $('.annotation').on('hover', annotationHover);
     }
 
     function render() {
@@ -59,8 +77,14 @@
     // Event Handlers
 
     function clickAnnotation() {
+        d3.selectAll('.annotation').attr('class', 'annotation');
         $(this).attr('class','annotation selected');
         var id = $(this).parent().attr('id');
+    }
+
+    function annotationHover() {
+        var id = $(this).parent().attr('id');
+
     }
 
     function init() {
@@ -68,7 +92,8 @@
         bindEvents();
         render();
     }
-
+    init();
+    
     $(function () {
 
         var svg = d3.select('#annotations_overlay');
@@ -77,17 +102,15 @@
         .data(annotations)
         .enter()
         .append('svg')
-        .attr('height', "15")
-        .attr('width', "15")
-        .attr('id', function(d) { console.log(d.id); return d.id; })
+        .attr('height', '15')
+        .attr('width', '15')
+        .attr('id', function (d) { return d.id; })
         .append('circle')
         .attr('class', 'annotation')
         .attr('r', '4')
         .attr('cx', 7.5)
         .attr('cy', 7.5)
         .style('fill', 'cyan');
-
-        console.log(svg);
 
         $('#viewer').height($('body').innerHeight());
 
@@ -111,6 +134,5 @@
                 overlays: annotations
             }]
         });
-        init();
     });
 })(jQuery, d3, OpenSeadragon, d3);

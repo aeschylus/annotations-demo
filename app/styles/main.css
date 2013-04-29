@@ -6,9 +6,16 @@ body {
     overflow: hidden;
     font-size: 16px;
 }
+p {
+    margin:0;
+    padding: 1em 1.5em 3em 1em;
+}
+.annotationCard h3 {
+    color:white;
+}
 #viewer {
-width:100%;
-height:100%;
+    width:100%;
+    height:100%;
 }
 #annotations_overlay {
     color:white;
@@ -23,11 +30,59 @@ height:100%;
     overflow:hidden;
     background:rgba(255,255,255,0.3);
 }
+.annotation {
+    transition: all .15s ease-out;
+
+}
 .annotation:hover {
-stroke: white;
-stroke-width:6px;
+    stroke: white;
+    stroke-width:6px;
+    transition: all .15s ease-out;
 }
 .annotation.selected {
     stroke:orangered;
     stroke-width:7px;
+    transition: all .15s ease-out;
+}
+#sidepanel {
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background: black;
+    border-left: 2px solid white;
+    box-sizing:border-box;
+    overflow:scroll;
+    box-shadow: -2px 0px 8px gray;
+}
+#sidepanel ul {
+    margin:0;
+    padding:0;
+    display:block;
+    box-sizing:border-box;
+}
+#sidepanel li {
+    border-top: 1px solid gray;
+    display:block;
+    box-sizing:border-box;
+    padding-left:50px;
+}
+#sidepanel h3 {
+    padding-top:0;
+    border:none;
+}
+#sidepanel li:last-child {
+    border-bottom: 1px solid gray;
+}
+.annotationCard {
+    transition: all .3s ease-out;
+}
+.annotationCard:hover {
+    background:white;
+    color:black;
+    transition: all .3s ease-out;
+}
+.annotationCard:hover h3 {
+color:black;
 }
