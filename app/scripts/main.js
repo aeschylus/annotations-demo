@@ -1,10 +1,10 @@
-(function ($, d3, openseadragon, undefined) {
-    
+window.DM = (function ($, d3, openseadragon, undefined) {
+
     'use strict';
 
-    var annotations = [],
-    width = 5233,
-    height = 7200;
+    var annotations = [0,0,0,0,0],
+    width =  3071,
+    height = 4851;
 
     function genUUID() {
         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
@@ -13,11 +13,12 @@
         });
     }
 
-    function collectAnnotations(json) {
-        d3.json('data/Transcriptions-f1r.json', function (error, json) {
+    function buildAnnotations(src) {
+        annotations = $.get('data/Transcriptions-f1r.json', function (json) {
             var rawAnnos = json['@graph'],
             commentaryBodies = {};
             window.commentaryBodies = commentaryBodies;
+            
             rawAnnos.forEach(function (item) {
 
                 function commentaryBodyById(id) {
@@ -64,14 +65,16 @@
     //     createAnnotation();
     // }
 
-
     function bindEvents() {
         $('.annotation').on('click', clickAnnotation);
         $('.annotation').on('hover', annotationHover);
     }
 
     function render() {
-
+        var $annotationCard = $('.annotationCard'),
+        $annotationsTotal = $('.annotationsTotal');
+        // $annotationsTotal.text(annotations.length);
+        // $annotationsTotal.text(annotations.length);
     }
 
     // Event Handlers
@@ -88,51 +91,68 @@
     }
 
     function init() {
-        collectAnnotations();
+        annotations = buildAnnotations();
         bindEvents();
         render();
     }
-    init();
-    
-    $(function () {
 
-        var svg = d3.select('#annotations_overlay');
+    return {
+        annotations: annotations,
+        init: init,
+        render: render
+    };
 
-        var annotation = d3.select('#viewer').selectAll('.annotation')
-        .data(annotations)
-        .enter()
-        .append('svg')
-        .attr('height', '15')
-        .attr('width', '15')
-        .attr('id', function (d) { return d.id; })
-        .append('circle')
-        .attr('class', 'annotation')
-        .attr('r', '4')
-        .attr('cx', 7.5)
-        .attr('cy', 7.5)
-        .style('fill', 'cyan');
-
-        $('#viewer').height($('body').innerHeight());
-
-        window.DGN = openseadragon({
-            'id':               'viewer',
-            'prefixUrl':        'http://openseadragon.github.com/openseadragon/images/',
-            'preserveViewport': true,
-            'visibilityRatio':  1,
-            'minZoomLevel':     0,
-            'defaultZoomLevel': 0,
-            'tileSources':      [{
-                'identifier': 'bg210vm0680%2fbookCover',
-                'width': 5233,
-                'height': 7200,
-                'tile_width': 512,
-                'tile_height': 512,
-                'formats': [ 'jpeg', 'png', 'gif', 'bmp' ],
-                'qualities': [ 'native' ],
-                'profile': 'http://library.stanford.edu/iiif/image-api/compliance.html#level1',
-                'image_host': 'https://stacks-test.stanford.edu/image/iiif',
-                overlays: annotations
-            }]
-        });
-    });
 })(jQuery, d3, OpenSeadragon, d3);
+
+$(function () {
+    DM.init();
+    var svg = d3.select('#annotations_overlay');
+
+    var annotation = d3.select('#viewer').selectAll('.annotation')
+    .data(DM.annotations)
+    .enter()
+    .append('svg')
+    .attr('height', '15')
+    .attr('width', '15')
+    .attr('id', function (d) { return d.id; })
+    .append('circle')
+    .attr('class', 'annotation')
+    .attr('r', '4')
+    .attr('cx', 7.5)
+    .attr('cy', 7.5)
+    .style('fill', 'cyan');
+
+    var svg = d3.select('#annotations_overlay');
+
+    svg.attr('height', 200)
+    .attr('width', 200)
+    .append('rect')
+    .attr("x", 10)
+    .attr("y", 10)
+    .attr("width", 50)
+    .attr("height", 100);
+
+    $('#viewer').height($('body').innerHeight());
+
+    window.DGN = OpenSeadragon({
+        'id':               'viewer',
+        'prefixUrl':        'http://openseadragon.github.com/openseadragon/images/',
+        'preserveViewport': true,
+        'visibilityRatio':  1,
+        'minZoomLevel':     0,
+        'defaultZoomLevel': 0,
+        'tileSources':      [{
+            'identifier': 'bd183mz0176%2fW688_000001_300',
+            'width': 3071,
+            'height': 4851,
+            'tile_width': 512,
+            'tile_height': 512,
+            'formats': [ 'jpeg', 'png', 'gif', 'bmp' ],
+            'qualities': [ 'native' ],
+            'profile': 'http://library.stanford.edu/iiif/image-api/compliance.html#level1',
+            'image_host': 'https://stacks-test.stanford.edu/image/iiif',
+            overlays: DM.annotations
+        }]
+    });
+});
+
