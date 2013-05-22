@@ -20,10 +20,12 @@ window.DM = (function ($, d3, openseadragon, undefined) {
     height = 4851;
 
     function genUUID() {
-        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+        var idNum = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
             var r = Math.random() * 16|0, v = c == 'x' ? r : (r&0x3|0x8);
             return v.toString(16);
         });
+
+        return "uuid-" + idNum;
     }
 
     function buildAnnotations() {
@@ -50,9 +52,11 @@ window.DM = (function ($, d3, openseadragon, undefined) {
                         height: Math.random(),
                         title: 'Behold',
                         body: commentaryBodyById(itemId),
-                        className: 'text_commentary'
+                        className: 'text_commentary',
                     };
-                    console.log(itemId);
+                    annotation.frame = new OpenSeadragon.Rect( annotation.x - annotation.width/40, annotation.y - annotation.height/40, annotation.width + annotation.width/20, annotation.height + annotation.height/20 );
+                    
+                    console.log(annotation);
                     annotations.push(annotation);
                 }
             });
@@ -75,9 +79,9 @@ window.DM = (function ($, d3, openseadragon, undefined) {
 
     function bindEvents() {
         $('.annotation').on('click', clickAnnotation);
-        $('.annotation').on('click', clickAnnotation);
-        $('.annotation').on('hover', annotationCardHover);
-        $('.annotation').on('hover', annotationCardHover);
+        $('.annotation').on('hover', annotationHover);
+        $('.annotationCard').on('click', clickAnnotationCard);
+        $('.annotationCard').on('hover', annotationCardHover);
     }
 
     function render() {
@@ -91,7 +95,7 @@ window.DM = (function ($, d3, openseadragon, undefined) {
             newCard(item, iterator);
             console.log("doing it");
         });
-        
+
         function newCard(annotationDetails, num) {
             var $newCard = $annotationCard.clone();
             $newCard.attr('id', "listing"+annotationDetails.id);
@@ -138,32 +142,67 @@ window.DM = (function ($, d3, openseadragon, undefined) {
                 overlays: DM.annotations
             }]
         });
-        
+
         bindEvents();
     }
 
     // Event Handlers
+    //
+    function cut(n) {
+        return function textCutter(i, text) {
+            var short = text.substr(0, n);
+            if (/^\S/.test(text.substr(n)))
+                return short.replace(/\s+\S*$/, "");
+            return short;
+        };
+    }
 
     function clickAnnotation() {
         d3.selectAll('.annotation').attr('class', 'annotation');
         $(this).attr('class','annotation selected');
-        var id = "listing" + $(this).parent().attr('id');
-
+        $('.annotationCard').removeClass('selected');
+        var id = "#listing" + $(this).parent().attr('id');
         $(id).addClass('selected');
+        $('#sidepanel').animate(
+            {scrollTop: $(id).offset().top},
+            500
+        );
+        
+        var annotationId = id.substring(7, 10000); 
+        var annotationFrame = $.grep(window.DGN.tileSources[0].overlays, function(e) { return e.id === annotationId; } )[0].frame;
+        console.log(annotationFrame);
+        DGN.viewport.fitBounds(annotationFrame);
     }
 
     function annotationHover() {
-        var id = $(this).parent().attr('id');
+        d3.selectAll('.annotationHover').attr('class', 'annotation');
+        $(this).attr('class','annotation annotationHover');
+        $('.annotationCard').removeClass('annotationCardHover');
+        var id = "#listing" + $(this).parent().attr('id');
+        $(id).addClass('annotationCardHover');
     }
-    
+
     function clickAnnotationCard() {
         d3.selectAll('.annotation').attr('class', 'annotation');
-        $(this).attr('class','annotation selected');
-        var id = $(this).parent().attr('id');
+        $('.annotationCard').removeClass('selected');
+        $(this).addClass('selected');
+        var id = $(this).attr('id');
+        id = '#' + id.substring(7, 10000);
+        var el = d3.select(id + " .annotation").attr('class','annotation selected');
+
+        var annotationId = id.substring(1, 10000); 
+        var annotationFrame = $.grep(window.DGN.tileSources[0].overlays, function(e) { return e.id === annotationId; } )[0].frame;
+        console.log(annotationFrame);
+        DGN.viewport.fitBounds(annotationFrame);
     }
 
     function annotationCardHover() {
-        var id = $(this).parent().attr('id');
+        d3.selectAll('.annotationHover').attr('class', 'annotation');
+        $('.annotationCard').removeClass('annotationCardHover');
+        $(this).addClass('annotationCardHover');
+        var id = $(this).attr('id');
+        id = '#' + id.substring(7, 10000);
+        var el = d3.select(id + " .annotation").attr('class','annotation annotationHover');
     }
 
     function init() {
@@ -176,13 +215,5 @@ window.DM = (function ($, d3, openseadragon, undefined) {
 $(function () {
     $('#viewer').height($('body').innerHeight());
     DM.init();
-
-
-    var svg = d3.select('#annotations_overlay');
-
-    svg.attr('height', 200)
-    .attr('width', 200)
-
-
 });
 
