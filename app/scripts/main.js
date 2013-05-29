@@ -1,4 +1,4 @@
-window.DM = (function ($, d3, openseadragon, undefined) {
+DM = (function ($, d3, openseadragon, undefined) {
 
     'use strict';
 
@@ -12,9 +12,23 @@ window.DM = (function ($, d3, openseadragon, undefined) {
         bindEvents: bindEvents,
         render: render,
         countAnnotations: function () {
-            return this.annotations.length;
-        }
+            return dm.annotations.length;
+        },
+        canvas: null,
+        getZoomLevel : function() {
+
+        },
+        getBoundRatios : function() {
+
+        },
+        scale : {
+
+        },
+        setScale: function (canvas) {
+            this.scale.render();
+        },
     };
+
     var annotations = [],
     width =  3071,
     height = 4851;
@@ -55,8 +69,6 @@ window.DM = (function ($, d3, openseadragon, undefined) {
                         className: 'text_commentary',
                     };
                     annotation.frame = new OpenSeadragon.Rect( annotation.x - annotation.width/40, annotation.y - annotation.height/40, annotation.width + annotation.width/20, annotation.height + annotation.height/20 );
-                    
-                    console.log(annotation);
                     annotations.push(annotation);
                 }
             });
@@ -78,7 +90,10 @@ window.DM = (function ($, d3, openseadragon, undefined) {
     }
 
     function bindEvents() {
+        $('#viewer').on('click', clickViewer);
+        $(window).on('scroll', function() {console.log("scrollin' homies");});
         $('.annotation').on('click', clickAnnotation);
+        $('.annotation').on('hover', annotationHover);
         $('.annotation').on('hover', annotationHover);
         $('.annotationCard').on('click', clickAnnotationCard);
         $('.annotationCard').on('hover', annotationCardHover);
@@ -93,7 +108,6 @@ window.DM = (function ($, d3, openseadragon, undefined) {
 
         dm.annotations.forEach(function (item, iterator) {
             newCard(item, iterator);
-            console.log("doing it");
         });
 
         function newCard(annotationDetails, num) {
@@ -104,9 +118,7 @@ window.DM = (function ($, d3, openseadragon, undefined) {
             $('.annotationList').append($newCard);
         }
 
-
-        $annotationsTotal.text(dm.annotations.length);
-        $annotationsTotal.text(dm.annotations.length);
+        $annotationsTotal.text(dm.countAnnotations);
 
         var annotation = d3.select('#viewer').selectAll('.annotation')
         .data(dm.annotations)
@@ -122,7 +134,7 @@ window.DM = (function ($, d3, openseadragon, undefined) {
         .attr('width', 98 + '%')
         .attr('height', 98 + '%');
 
-        window.DGN = new OpenSeadragon({
+        dm.canvas =  new OpenSeadragon({
             'id':               'viewer',
             'prefixUrl':        'http://openseadragon.github.com/openseadragon/images/',
             'preserveViewport': true,
@@ -148,13 +160,14 @@ window.DM = (function ($, d3, openseadragon, undefined) {
 
     // Event Handlers
     //
-    function cut(n) {
-        return function textCutter(i, text) {
-            var short = text.substr(0, n);
-            if (/^\S/.test(text.substr(n)))
-                return short.replace(/\s+\S*$/, "");
-            return short;
-        };
+    function clickViewer() {
+        var canvasWidth = 700,
+        scaleWidth = 200,
+        relativeScaleWidth = scaleWidth/canvasWidth,
+        scaleRatio = DM.canvas.viewport.getBounds().width;
+
+        var newLabel = (canvasWidth*scaleRatio)*relativeScaleWidth + "mm";
+        $('#scale .label').text(newLabel);
     }
 
     function clickAnnotation() {
@@ -167,11 +180,10 @@ window.DM = (function ($, d3, openseadragon, undefined) {
             {scrollTop: $(id).offset().top},
             500
         );
-        
-        var annotationId = id.substring(7, 10000); 
-        var annotationFrame = $.grep(window.DGN.tileSources[0].overlays, function(e) { return e.id === annotationId; } )[0].frame;
-        console.log(annotationFrame);
-        DGN.viewport.fitBounds(annotationFrame);
+
+        var annotationId = id.substring(8, 10000); 
+        var annotationFrame = $.grep(dm.canvas.tileSources[0].overlays, function(e) { return e.id === annotationId; } )[0].frame;
+        dm.canvas.viewport.fitBounds(annotationFrame);
     }
 
     function annotationHover() {
@@ -189,11 +201,10 @@ window.DM = (function ($, d3, openseadragon, undefined) {
         var id = $(this).attr('id');
         id = '#' + id.substring(7, 10000);
         var el = d3.select(id + " .annotation").attr('class','annotation selected');
-
         var annotationId = id.substring(1, 10000); 
-        var annotationFrame = $.grep(window.DGN.tileSources[0].overlays, function(e) { return e.id === annotationId; } )[0].frame;
-        console.log(annotationFrame);
-        DGN.viewport.fitBounds(annotationFrame);
+        var annotationFrame = $.grep(dm.canvas.tileSources[0].overlays, function(e) { return e.id === annotationId; } )[0].frame;
+        dm.canvas.viewport.fitBounds(annotationFrame);
+        clickViewer();
     }
 
     function annotationCardHover() {
@@ -212,8 +223,17 @@ window.DM = (function ($, d3, openseadragon, undefined) {
     return dm;
 })(jQuery, d3, OpenSeadragon, d3);
 
+var scale = function() {
+    var scale = {
+        prop: "tester",
+        drawFrom: DM.canvas
+    }
+
+    return scale;
+};
 $(function () {
     $('#viewer').height($('body').innerHeight());
-    DM.init();
+    DM.init()
+    herp = new scale();
 });
 

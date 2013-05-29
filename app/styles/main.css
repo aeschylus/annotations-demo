@@ -12,10 +12,12 @@ p {
 }
 .annotationCard h3 {
     color:white;
+    cursor: pointer;
 }
 #viewer {
     width:70%;
     height:100%;
+    position:relative;
 }
 #annotations_overlay {
     color:white;
@@ -36,6 +38,7 @@ p {
     stroke-width:3px;
     opacity:0.1;
     fill-opacity:0.2;
+    cursor: pointer;
 }
 .annotation:hover, .annotation.hover {
     transition: fill-opacity .15s ease-out;
@@ -105,8 +108,36 @@ p {
     transition: all .3s ease-out;
 }
 .annotationCard:hover h3, .annotationCard.selected h3 {
-color:black;
+    color:black;
 }
 .annotationCard p{
-padding-bottom:20px;
+    padding-bottom:20px;
+}
+#scale {
+    height:4px;
+    width:200px;
+    background:white;
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin:25px;
+    z-index:50;
+}
+#scale .label {
+    margin: 0 auto;
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+    display:block;
+}
+#dimensions {
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin:25px;
+    color: white;
+    text-align: center;
+    display:block;
+    z-index:50;
+    text-shadow: 0 0 10px black;
 }

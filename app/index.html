@@ -21,6 +21,7 @@
     <script src="scripts/vendor/underscore-min.js"></script>
     <script src="scripts/vendor/handlebars.js"></script>
     <script src="scripts/vendor/openseadragon.js"></script>
+    <script src="scripts/vendor/jquery.mousewheel.js"></script>
 </head>
 <body>
     <!--[if lt IE 7]>
@@ -28,18 +29,20 @@
         <![endif]-->
 
     <div id="viewer" class="openseadragon">
+        <div id="scale">
+            <span class="label">400mm</span>
+        </div>
+        <div id="dimensions">700x400mm</div>
+    </div>
         <noscript>
             <p>Deep zoom is not available unless javascript is enabled.</p>
         </noscript>
-    </div>
-    <svg id="annotations_overlay">
-    </svg>
     <div id="sidepanel">
-        <h1>Annotation List (<span class="annotationsTotal"></span>)</h1>
+        <h1>Annotation List (<span class="annotationsTotal">0</span>)</h1>
         <div class="annoSearch">
-            <select id="" name="annotationTypes">
+            <select id="annotationTypeSelector" name="annotationTypes">
             	<option value="Image Annotations">Image Annotations (0)</option>
-            	<option value="Text Annotations">Text Annotations (<span class="annotationsTotal"></span>)</option>
+            	<option value="Text Annotations">Text Annotations (<span class="annotationsTotal">0</span>)</option>
             	<option value="Select Annotations">Selected Annotations (0)</option>
             </select>
         </div>
