@@ -91,17 +91,19 @@ DM = (function ($, d3, openseadragon, undefined) {
 
     function bindEvents() {
         $('#viewer').on('click', clickViewer);
-        $(window).on('scroll', function() {console.log("scrollin' homies");});
         $('.annotation').on('click', clickAnnotation);
         $('.annotation').on('hover', annotationHover);
         $('.annotation').on('hover', annotationHover);
         $('.annotationCard').on('click', clickAnnotationCard);
         $('.annotationCard').on('hover', annotationCardHover);
+        dm.canvas.addHandler('zoom', zoomHandler);
+        dm.canvas.addHandler('pan', function() {"panning"});
     }
 
     function render() {
         var $annotationCard = $('.annotationCard').clone(),
         $annotationsTotal = $('.annotationsTotal'),
+        $optionsAnnotationsTotal = $('[value="Text Annotations"]'),
         $annotationList = $('.annotationList');
 
         $('.annotationCard').remove();
@@ -118,7 +120,8 @@ DM = (function ($, d3, openseadragon, undefined) {
             $('.annotationList').append($newCard);
         }
 
-        $annotationsTotal.text(dm.countAnnotations);
+        $annotationsTotal.text(dm.countAnnotations());
+        $optionsAnnotationsTotal.text('Text Annotations (' + dm.countAnnotations() + ')');
 
         var annotation = d3.select('#viewer').selectAll('.annotation')
         .data(dm.annotations)
@@ -159,15 +162,28 @@ DM = (function ($, d3, openseadragon, undefined) {
     }
 
     // Event Handlers
-    //
+   function zoomHandler() {
+        var canvasWidth = 700,
+        scaleWidth = 200,
+        relativeScaleWidth = scaleWidth/canvasWidth;
+        // scaleRatio = dm.canvas.viewport.getBounds().width;
+        console.log(dm.canvas);
+
+        //var newLabel = ((canvasWidth*scaleRatio)*relativeScaleWidth).toFixed(2) + "mm";
+        //$('#scale .label').text(newLabel).hide().fadeIn('fast');
+   } 
     function clickViewer() {
         var canvasWidth = 700,
         scaleWidth = 200,
         relativeScaleWidth = scaleWidth/canvasWidth,
-        scaleRatio = DM.canvas.viewport.getBounds().width;
+        scaleRatio = dm.canvas.viewport.getBounds().width;
 
-        var newLabel = (canvasWidth*scaleRatio)*relativeScaleWidth + "mm";
-        $('#scale .label').text(newLabel);
+        var newLabel = ((canvasWidth*scaleRatio)*relativeScaleWidth).toFixed(2) + "mm";
+        $('#scale .label').text(newLabel).hide().fadeIn('fast');
+    }
+    
+    function changeDimensions() {
+
     }
 
     function clickAnnotation() {
@@ -223,7 +239,7 @@ DM = (function ($, d3, openseadragon, undefined) {
     return dm;
 })(jQuery, d3, OpenSeadragon, d3);
 
-var scale = function() {
+var Scale = function() {
     var scale = {
         prop: "tester",
         drawFrom: DM.canvas
@@ -234,6 +250,6 @@ var scale = function() {
 $(function () {
     $('#viewer').height($('body').innerHeight());
     DM.init()
-    herp = new scale();
+    herp = new Scale();
 });
 

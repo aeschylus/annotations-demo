@@ -114,13 +114,11 @@ p {
     padding-bottom:20px;
 }
 #scale {
-    height:4px;
-    width:200px;
-    background:white;
+    width:250px;
     position:absolute;
     bottom:0;
     left:0;
-    margin:25px;
+    margin:px;
     z-index:50;
 }
 #scale .label {
@@ -129,6 +127,9 @@ p {
     color: white;
     text-align: center;
     display:block;
+}
+#scale img.scale {
+    width:100%;
 }
 #dimensions {
     position:absolute;
